@@ -1,0 +1,38 @@
+- regex: ^A bell-like tone rings out from (\w+)'s rapier, echoed by the sound of cracking bone as your (?:left|right) (?:arm|leg) snaps painfully\.$
+  matching: 
+    - A bell-like tone rings out from John's rapier, echoed by the sound of cracking bone as your left arm snaps painfully.
+    - A bell-like tone rings out from Sarah's rapier, echoed by the sound of cracking bone as your right leg snaps painfully.
+  non-matching:
+    - A bell-like tone rings out from the guard's rapier, echoed by the sound of cracking bone as your left arm snaps painfully.
+    - A bell-like tone rings out from John's sword, echoed by the sound of cracking bone as your left arm snaps painfully.
+    - A bell-like tone rings out from the guard's rapier, echoed by the sound of cracking bone as your left leg snaps painfully.
+    - The bell-like tone rings out from John's rapier, echoed by the sound of cracking bone as your left arm snaps painfully.
+- regex: ^A bloodleech leaps at you, clamping with teeth onto exposed flesh and secreting some foul toxin into your bloodstream. You stumble as you are afflicted with (\w+)\.$
+  matching:
+    - A bloodleech leaps at you, clamping with teeth onto exposed flesh and secreting some foul toxin into your bloodstream. You stumble as you are afflicted with nausea.
+    - A bloodleech leaps at you, clamping with teeth onto exposed flesh and secreting some foul toxin into your bloodstream. You stumble as you are afflicted with dizziness.
+    - A bloodleech leaps at you, clamping with teeth onto exposed flesh and secreting some foul toxin into your bloodstream. You stumble as you are afflicted with weakness.
+    - A bloodleech leaps at you, clamping with teeth onto exposed flesh and secreting some foul toxin into your bloodstream. You stumble as you are afflicted with Nausea.
+  non-matching:
+    - A bloodleech leaps at you, clamping with teeth onto exposed flesh and secreting some foul toxin into your bloodstream. You are afflicted with nausea.
+    - A bloodleech leaps at you, clamping with teeth onto exposed flesh and secreting some foul toxin into your bloodstream. You stumble as you are afflicted with nausea and dizziness.
+- regex: ^A deathly calm descends upon your surroundings as (\w+) draws (\w+) up regally, eyes gleaming with murderous intent\.$
+  matching:
+    - A deathly calm descends upon your surroundings as Jack draws himself up regally, eyes gleaming with murderous intent.
+    - A deathly calm descends upon your surroundings as Sarah draws herself up regally, eyes gleaming with murderous intent.
+  non-matching:
+    - A deathly calm descends upon your surroundings as the assassin draws his knife up regally, eyes gleaming with murderous intent.
+    - A deathly calm descends upon your surroundings as Jack draws up his sword regally, eyes gleaming with murderous intent.
+    - A deathly calm descends upon your surroundings as Sarah draws her bow regally, eyes gleaming with murderous intent and focus.
+    - A deathly calm descends upon your surroundings as the assassin draws his knife, eyes gleaming with murderous intent.
+- regex: ^A diminutive homunculus resembling (\w+) claws into your flesh with dirty nails. The surrounding flesh begins to swell with fluid\.$
+  matching:
+    - A diminutive homunculus resembling Flubber claws into your flesh with dirty nails. The surrounding flesh begins to swell with fluid.
+    - A diminutive homunculus resembling Toad claws into your flesh with dirty nails. The surrounding flesh begins to swell with fluid.
+  non-matching:
+    - A diminutive homunculus resembling a toad claws into your flesh with dirty nails. The surrounding flesh begins to swell with fluid.
+    - A diminutive homunculus claws into your flesh with dirty nails. The surrounding flesh begins to swell with fluid.
+    - A diminutive homunculus resembling a goblin claws into your flesh with clean nails. The surrounding flesh begins to swell with fluid.
+    - A diminutive homunculus resembling a rat claws into your flesh with dirty nails. The surrounding flesh begins to shrink with fluid.
+
+

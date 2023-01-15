@@ -1,0 +1,659 @@
+^A bell-like tone rings out from (\w+)'s rapier, echoed by the sound of cracking bone as your (?:left|right) (?:arm|leg) snaps painfully\.$
+^A bloodleech leaps at you, clamping with teeth onto exposed flesh and secreting some foul toxin into your bloodstream. You stumble as you are afflicted with (\w+)\.$
+^A deathly calm descends upon your surroundings as (\w+) draws (\w+) up regally, eyes gleaming with murderous intent\.$
+^A diminutive homunculus resembling (\w+) claws into your flesh with dirty nails. The surrounding flesh begins to swell with fluid\.$
+^A diminutive homunculus resembling (\w+) obediently falls into line behind you\.$
+^A diminutive homunculus resembling (\w+) stares intendedly at you, its eyes flashing a deep blue\. A strange feeling spreads through your body as your melancholic and sanguine humours become corrupted\.$
+^A diminutive homunculus resembling (\w+) turns its head towards you, its jaws opening wider than what seems possible\. The homunculus stares intently at you and lets out an ear-piercing shriek that disrupts your thoughts\.$
+^Adjusting your footing, you unleash a horrific slash at the (?:arms|legs) of (\w+), cleaving flesh and shattering bone in a savage display of your supremecy\.$
+^A flag emblazoned with the Owl falls from (\w+)'s person\.$
+^A (?:giant|large) red scorpion jabs his stinger into your body and you burst into flame!$
+^A (?:giant|large) (?:red|yellow|black) scorpion jabs his stinger into your body and you wince in pain\.
+^A giant (?:red|yellow|black) scorpion jabs his stinger into your body and you wince in pain\.$
+^Agony radiates out from the point of impact as (\w+) brings the haft of (.+?) down upon your head with crushing force\.$
+^A great black cloud of buzzing humming bodies descends upon you
+^A heavy burden descends upon your soul as (\w+) lays the ancient Dragoncurse upon you\.$
+^A howling wind sweeps over you, its terrible power scouring flesh from bone and leaving your face a bloody ruin by the will of (\w+)\.$
+^A humbug scuttles forward and springs for your throat, attaching itself there for a brief instant. Your head violently swims as you feel it bring the curse of (\w+) down upon you\.$
+A large wall of stone stands here, blocking passage to the (\w+)\.
+^A lash of energy whips out of the chaos storm to strike you, afflicting you with (\w+).$
+^All of (\w+)'s reflections wink out of existence!$
+^A look of concentration followed by a look of disgust passes across (\w+)'s face\.$
+^A low growl echoes from a diminutive homunculus resembling (\w+)'s throat, and blood begins flowing from your nose\.$
+^A mighty, bestial roar from (\w+) sends you from your feet with its sheer force\.$
+^An? (.+) comes speeding in from the (\w+) towards your (.+)\.$
+^"And face your penance!" you denounce (\w+)\.$
+^"And may the cleansing fires consume you!" you dictate to (w\+), holy flame wreathing (\w+) incleansing fury\.$
+^"And see that which Evil reaps!" you recite to (\w+)\.$
+^"And sheltered by His duty," you murmur, laying a hand upon the brow of (\w+)\.$
+^"And thus I deem you unfit for Creation!" you proclaim, pointing imperiously at (\w+)\.$
+^"And your guilt will be made plain," you proselytise to (\w+)\.$
+^"And you shall be naught but cinders," you decree, focussing your holy might upon (\w+)\.$
+^Angel(\d+) +(\w+) +(\d+)$
+^An ice hellion raises her staff and points it at you, sending a bolt of ice to freeze you in place\.$
+An icewall is here, blocking passage to the (\w+)\.
+^An ominous feeling descends upon you as (\w+) turns (\w+) gaze upon you\.$
+^An? (\w+) tattoo fades from view and disappears\.$
+^([A\*][ \*][p\*][r\*][i\*][c\*][k\*][l\*][y\*][ \*][s\*][t\*][i\*][n\*][g\*][i\*][n\*][g\*][ \*][o\*][v\*][e\*][r\*][c\*][o\*][m\*][e\*][s*][ \*][y\*][o\*][u\*][r\*][ \*][b\*][o\*][d\*][y\*][,\*][ \*][f\*][a\*][d\*][i\*][n\*][g\*][ \*][a\*][w\*][a\*][y\*][ \*][i\*][n\*][t\*][o\*][ \*][n\*][u\*][m\*][b\*][n\*][e\*][s\*][s\*][.\*])$
+^A red scorpion jabs his stinger into your body and you burst into flame!$
+^A (?:red|yellow|black) scorpion jabs his stinger into your body and you wince in pain\.$
+*(artf|out|lit) +pipe(\d+) +empty +(?:n/a|\d+)
+*(artf|out|lit) +pipe(\d+) +(slippery elm|a skullcap flower|a valerian leaf|a pinch of realgar crystals|a pinch of ground cinnabar|a pinch of ground malachite) +(\d+) +(n/a|\d+)
+^As a particularly noticeable ripple crosses the surface of (\w+)'s form, you feel sweat break out across your entire body, coating your skin in a slick substance\.$
+A scorching wall of fire stands here, blocking passage to the (\w+)\.
+^As (?:Gattan'lier's hunger|an insubstantial dagger) begins to pulse with a sinister glow, (\w+) begins to close in on you\.$
+^A sharp pain across your throat and a sudden lack of breath comes moments before you register theretreat of (\w+)\, bloody dagger in hand\.$
+^A shimmering image of the face of (\w+) appears fleetingly before you, frowning in concentration\.$
+^A shiver of panic runs down your spine as the horror of a decaying zombie's existence strikes you\.$
+^A short convulsion sweeps through your body as (\w+) wracks your (\w+) and (\w+) humours\.$
+^A short convulsion sweeps through your body as (\w+) wracks your (\w+) humour\.$
+^A small brown lemming rips apart your (.+) with its claws\.$
+^A snaking stream of ice from (\w+)'s maw forks into the room, blasting into you mercilessly\.$
+^A snaking stream of lightning from (\w+)'s maw forks into the room, blasting into you mercilessly\.$
+^As the dark intent of (\w+) falls upon you\, you feel the air surrounding you begin to thrum with tension\.$
+^As the force subsides, you struggle to shake the smirking visage of (\w+) from your mind\.$
+^As the righteous words of (\w+) build towards an ominous conclusion a light begins to shine upon you, its merciless glare a herald of danger\.$
+^As the (\w+) light shining from you grows to an intensity that threatens to blind lesser beings, the mighty Dragon quickly subsumes your physical form, and raw power floods your mind\.$
+^A sudden deluge of shockingly cold water drenches you, robbing you of strength by the will of (\w+)\.$
+^A sudden sense of panic overtakes you as the draconic curse manifests, afflicting you with (impatience|paralysis|sensitivity|asthma)\.$
+^As (\w+) draws (\w+) (\w+) from its scabbard, (\w+) drives the pommel into your chin\.$
+^As (\w+) gestures toward you, lines of sharp pain slash across your skin\.$
+^As (\w+) shifts the blade transfixing your gut, the loathsome kiss of metal ravages your insides\.$
+^As (\w+) strikes you, you stumble back from the searing heat, tripping to the ground\.$
+^"As you fall before the weapons of Their faithful," you intone, readying yourself for a crushing blow against (\w+)\.$
+^As your gaze falls upon the depiction, an insatiable lust for the glorious (\w+) comes over you.$
+^A terrible flash and an instant of soul-searing agony heralds the conclusion of (\w+)'s prayer, the merciless glare transforming to a cataclysmic blast of effulgent fury\.$
+^(.+) attempts to transfix you, but succeeds only in curing your blindness\.$
+^"Attend me," you intone to (\w+)\.$
+^A viper-like sleizak rune suddenly extends from (?:the ground|a totem) to bite you painfully\.$
+^A \w+ zombie lunges forward and bites into your shoulder with his rotten teeth\.$
+"[A-Z][a-z]\.\.\.[a-z]\.\.\.\.[a-z]{3}\.\.\.[a-z]{2}\.\.\.\.\."$
+^(?:[A-Za-z]+\b,? *){2,} tells you, "That looks good\. I'll be in touch\."
+(.*) ([a-zA-Z@]*)(?:\<.*\>)?(?: Vote)?-
+^([A-Z].+) stands a tarot on (\w+) open palm, and blows it lightly at you\. Suddenly your movement through the time stream is slowed\.$
+^Before you can avoid it, (\w+)'s hand brushes against your arm and it withers away\.$
+\b(?:(?:(?:[Hh]ttps?|ftp|telnet)://[\w\d:#@%/;$()~_?\+\-=&]+|www|ftp)(?:\.[\w\d:#@%/;$()~_?\+\-=&]+)+|[\w\d._%+\-]+@[\w\d.\-]+\.[\w]{2,4})\b
+^bleeding for (\d+) health\.$
+^Blue light crackles forth from (\w+)'s palms, striking you down and snapping your puny limbs\.$
+^Bracing your feet, you launch a devastating slash at the arms of (\w+), delivering a glancing blow\.$
+^Bracing your feet, you launch a devastating slash at the legs of (\w+), delivering a glancing blow\.$
+^Bracing your feet, you lunge upward at (\w+) with
+^"Burn, blight upon Creation!" you dictate to (\w+), holy flame wreathing (\w+) in cleansing fury\.$
+^"Burn!" you command (\w+), fire leaping forth to sear (\w+)\.
+^Channeling your focus through your link to your homunculus, you reach out to find the ethereal hook for (\w+)'s humours\. Finding it, you use the alien connection with a diminutive homunculus resembling (\w+) to corrupt (\w+) humours\.$
+^Cloaked in a shifting mantle of molten stone\, ([\w'\-]+) charges in from the (.*) with a deafening roar\.$
+^Cold blue flames wreathe (\w+)'s runeblade, emanating an icy chill that penetrates you to the bone\.$
+^\| +CommandSeparator +(.+)? +ShowSelfClasswho
+^Composing a few clever lines in your head, you quickly sing a jaunty limerick at (\w+)\.$
+^Composing a few clever lines in your head, you quickly sing a jaunty limerick at (\w+), who seems to pay no notice\.$
+^Confidence drains from you, replaced by fear, as (\w+) weaves a counterpoint between instrument and voice aimed at you\.$
+crunches into the side of your head, stunning you!$
+^\[Curing\]: ([A-Z ]+)$
+\| +(\d+)
+^(\d+)
+\[ *(\d+) *\] ([^\[$]+)
+^-(\d+)-$
+^Directing your voice so only (\S+) may hear, you command (\w+) to serve\.$
+^Drawing an enormous breath, (\w+) exhales, expelling a gale of wind with such force that you are knocked over\.$
+^Drawing back (.+?), you unleash a flesh-mincing blow at
+^Drawing (\w+) up to (\w+) full height, (\w+) throws (\w+) arms wide\. The clouds above roil, then bolt after bolt of incandescent lightning falls upon you\. The world becomes nothing but light and pain\.$
+^Ducking behind you, (\w+) strikes at your hamstring with a rigid grip\.$
+^Enter NSUMMARY (.+?) to continue\.$
+^Fists clenched, (\w+) focuses on you with a deadly look in (\w+) eyes\.$
+^Fixing your gaze upon (.+), you intone, "Laiad"\.$
+^Focusing your mind on a diminutive homunculus resembling (\w+), you command it to disrupt (\w+)'s focus\. The homunculus turns towards (\w+) before letting out an ear-piercing shriek\.$
+^"For justice shall not be averted," you declare, as you prepare for your clash with (\w+)\.$
+^"For we shall not falter," you murmur, laying a hand upon the brow of (\w+)\.$
+^Frozen by fear, you can do naught but watch, wide-eyed with terror, as (\w+)'s blazing sphere streaks towards you and slams into your body, burning you horribly\.$
+^Golden chains of light coalesce in the hands of (\w+), and (\w+) casts them out to bind you to (\w+)\.$
+^Grabbing your arm in (\w+) vice-like hands, an iron malagma snaps the bone in two\.$
+^High above, (\w+) opens (\w+) glistening, tooth-lined maw wide and rains a great tempest of ice down upon you, from which there is no escape or reprieve\.$
+^High above, (\w+) opens (\w+) glistening, tooth-lined maw wide and rains a great tempest of lightning down upon you, from which there is no escape or reprieve\.$
+^Holding your head up, (\w+) snaps (\w+) wrist, sending (\w+) whip to wrap around your neck\. (\w+) casually places (\w+) foot upon the small of your back and jerks the whip viciously backwards so that it bites deeply into your throat\. Blood streams down from your shattered windpipe as you gasp uselessly for air\.$
+^Horrifying visions overcome you as (\w+) turns (\w+) righteous gaze upon you\.$
+^"Hunt!" (\w+) orders (\w+) daegger\.$
+^Icy vapour escapes from (\w+)'s clenched fist as (\w+) aims a blow towards you\.$
+^"I deem you unfit for Creation!" you proclaim, pointing imperiously at (\w+)\.$
+^Imbuing your voice with power, you intone, "(\S+)"\.$
+^In a single motion, (\w+) draws (\w+) (\w+) from its scabbard and looses a vicious (?:rising|falling) slash at your (torso|head)\.$
+^In a single motion, (\w+) draws (\w+) (\w+) from its scabbard and looses a vicious rising slash at your (.+)\.$
+^In a single, sinuous motion, (\w+) manoeuvres (\w+) imposing form to encircle (\w+)'s feet, fixing (\w+) with a penetrating gaze as (\w+) tremendous jaws open wide\.$
+^In a single, sinuous motion, (\w+) manoeuvres (\w+) imposing form to encircle your feet, fixing you with a penetrating gaze as (\w+) tremendous jaws open wide\.$
+^In one quick motion, Westriv Talkar leans down and severs your hamstring\.$
+^Invoking the power that the line of Sycaerunax grants you, you will forth the Dragon within, and a (\w+) light begins to emanate from your very soul\.$
+([^\.]+) is here(?:\.|, sleeping soundly\.|, shrouded\.) (\w+) is surrounded by a glowing white nimbus\.
+^Its talons shred the (.+?) defence of yourself\.$
+^(\w+) inhales deeply, then lets out an earth-shaking roar as a jet of white-hot fire shoots from (\w+) nostrils directly at you\.$
+^"Know the pain which you have caused," you proselytise to (\w+)\.$
+^Leaping forwards with lightning speed, (\w+) strikes you in the chest with a single, powerful blow\. Its rhythm interrupted by (\w+) precise attack, your heartbeat begins to fluctuate erratically, a painful pressure building in your arteries\.$
+^Lightning-quick, (\w+) jabs you
+^Lightning-quick, (\w+) (?:stabs|jabs) your (.+) with
+^Locking the image of (\S+) in your minds eye, you utter, "[Hh]iemeth"\.$
+^Lunging forward with one palm outstretched, (\w+) aims a blow at your heart\. A warm pulse accompanies (\w+) attack, leaving a dull ache in your chest\.$
+^Magma ceases to bubble up from beneath the outer strata of ([\w'\-]+)\.$
+^Magma erupts from the cracks between the plates covering ([\w'\-]+)\, cloaking ([\w'\-]+) in a churning shroud of molten stone\.$
+^"May your body reflect your faith," you intone, readying yourself for a crushing blow against (\w+)\.$
+^"May you yet feel the pain you so inflict\." you recite to (\w+), your holy protections surging around you\.$
+^More a physical blow than a simple sound, the shocking thunderclap summoned forth by (\w+) leaves you reeling\.$
+^Moving with unpredictable grace, (\w+) sends a dancing blow towards you\.$
+\[ (.+) NEWS SUMMARY \]
+^Opening (\w+) great maw, (\w+) envelopes you with a glacial plume of freezing air\.$
+^Opening (\w+) massive maw, (\w+) throws (\w+) head forward and blasts wave after wave of deadly, all-consuming cold at you\.$
+^Pain wracks your soul as you begin your new life\. As the new body forms, you realise you now have (.+?) and (.+?), and you are covered with (.+)\.$
+^p? +(\d+)
+pipe(\d+) +a black diamond pipe
+^"Protected from the ravages of the Outer Cold," you murmur, laying a hand upon the brow of (\w+)\.$
+^Raising (.+?) above your head, you bring it down upon
+^Raising a shining metallic hand, (.+) points at you and mouths something. Every nerve in your body springs to life and begins to smoulder under your skin\.$
+^Readying (?:Gattan'lier's hunger|an insubstantial dagger), (\w+) begins to prowl towards you\.$
+^"Repent for your crimes!" you denounce (\w+)\.$
+^"Return to ash," you decree, focussing your holy might upon (\w+)\.$
+^Searing pain tears through your midsection as you wrench away from (\w+), (\w+) weapon ripping unceremoniously through your innards\.$
+^Seven rays of different coloured light spring out from (\w+)'s outstretched hands, irradiating the location with blinding strobes\.$
+^"Sheltered by His duty," you murmur, laying a hand upon the brow of (\w+)\.$
+^So convincing is (\w+)'s requiem for historical Seleucar that paranoia of the future sets in\.$
+^"So listen well," you intone to (\w+)\.$
+^Spinning to the (left|right) as (\w+) draws (\w+) (\w+) from its sheath, (\w+) delivers a precise slash across your arms\.$
+^Stars explode in front of your eyes as (\w+) brings the flat of (.+?) down on top of your head\.$
+^Stars explode in front of your eyes as (\w+) smashes a translucent mace into the side of your head\.$
+^Starting with the characteristic Jaziran trill, you sing a qasida of asceticism to (\w+)\.$
+^Starting with the characteristic Jaziran trill, you sing a qasida of asceticism to (\w+), who seems undaunted\.$
+^Sticky strands of webbing spray out from (\w+) to cover you\.$
+^Striking like a snake, (\w+) follows the first attack with another\.$
+^suffering from (\d+) cracked ribs\.$
+^suffering from (\d+) skull fractures\.$
+^suffering from (\d+) torn tendons\.$
+^suffering from (\d+) wrist fractures\.$
+^Sweat breaking out on the forehead of (\w+) is your only warning before a bolt of lightning leaps down from on high, slamming into you and electrifying every nerve in a synchronised wave of agony\.$
+^Sweltering heat hazes the air as (\w+) lashes at you with a blazing fist\.$
+^\[System\]: Running queued (?:balance|equilibrium|eqbal|class) command: (.+)$
+^Taking hold of (.+?) with a firm two-handed grip, you hew savagely at
+^Terrible pain radiates from the weapon impaling you as (\w+) gives it a violent twist\.$
+^The amorphous form of (\w+) trembles for a moment, then water bursts up from the ground, rapidly flooding the location\.$
+^The amorphous form of (\w+) trembles, some of the liquid composing it falling away from the greater whole\.$
+^The aura around (\w+) lashes out at you\.$
+^The blade bites deeply into your (.+)\.$
+^The blade of (\w+) is a blur as he moves forward, slicing into your (.+?)\.$
+^The blade on the daegger splits into a semblance of teeth as (\w+) prepares for the final strike\.$
+^The corpse of (.+) is too small to butcher (.+)\.$
+^The effects of your time manipulation fade somewhat, leaving you only aged by (\d+) years\.$
+^The element of earth shakes you to the core, breaking your (left|right) (arm|leg)\.$
+^The emptiness of the void overtakes you, stripping your (.+) defence\.$
+^The etheric light around you abruptly fades, and you feel a sudden release of tension as the hissing noise ceases entirely\. Through a rapidly closing fold in the ether, you catch a glimpse of the face of (\w+)\.$
+^The eyes of (\w+) go out of focus for a moment as (\w+) mouth falls wide, a terrible, unearthly sound rippling forth\.$
+^The fiery outer layers of ([\w'\-]+) fall away\, turning to dust as they drift to the ground\. Though ([\w'\-]+) seems diminished for an instant\, ([\w'\-]+) fires soon rage with fury once more\.$
+^The fire on the hands of (\w+) jumps to you, setting you ablaze\.$
+^The flag has been UPROOTED by (\w+)!
+^The implacable gaze of (\w+) falls upon you, the burning flames that are (\w+) eyes flaring brilliantly\.$
+^"Their blades shall break upon our shields," you murmur, laying a hand upon the brow of (\w+)\.$
+^"The light shall not be denied," you declare, as you prepare for your clash with (\w+)\.$
+^The magma-wreathed form of ([\w'\-]+) smashes into you\, crushing you beneath ([\w'\-]+) massive bulk and searing you to the bone\.$
+^The meteor, shot by (\w+), slams into your shield, shattering it\.$
+^The meteor slams into (\w+)'s shield, shattering it\.$
+^The music of the jack-in-the-box becomes faster and more frantic and a loud voice from within yells, "(\w+), I'm a-cooomiiiiing!"$
+^The prayer of (\w+) builds in strength as (\w+) fixates upon you, righteous fury evident in every word\.$
+^the pressure surrounding you is (\d+)\.$
+There are (\d+) fulminations sphere here\.
+There are (\d+) holocaust globes here\.
+There are (\d+) monolith sigils in (\d+) groups here\.
+^The roar washes over you, ripping apart your (.+) defence\.$
+^The rock plates covering the form of ([\w'\-]+) rapidly thicken\, sharp spires of stone rapidly sprouting from them\.$
+^The songbird upon (\w+)'s shoulder launches into a droning song\. You feel as if the world has closed in on you after listening to (\w+)'s repetitive isorhythm\.$
+^The songbird upon (\w+)'s shoulder launches into a requiem for historical Seleucar so convincing that paranoia of the future sets in\.$
+^The songbird upon (\w+)'s shoulder perfectly mimicks a complex counterpoint between instrument and voice aimed at you, and your confidence drains to be replaced by fear\.$
+^The songbird upon (\w+)'s shoulder perfectly mimics the recitation of an epic tale of Nicator's heroism and bravery to you, holding you motionless\.$
+^The songbird upon (\w+)'s shoulder perfectly mimics the recitation of an obscure, confusing Kamleikan haiku to you\.$
+^The songbird upon (\w+)'s shoulder sings a graceful maqam of el'Jazira at you, and you feel suddenly clumsy in comparison\.$
+^The songbird upon (\w+)'s shoulder sings a pastorale of the fields and streams to you\. You feel reluctant to leave the ground\.$
+^The songbird upon (\w+)'s shoulder sings a qasida of asceticism to you, starting with the characteristic Jaziran trill\.$
+^The songbird upon (\w+)'s shoulder sings out a poem of gluttony and decay that makes you feel ill\.$
+^The songbird upon (\w+)'s shoulder twitters an irritating ditty at you, disrupting your mind\.$
+^The stings paralyse your (right|left) (arm|leg)\.$
+^The stone fist of ([\w'\-]+) crunches into your (.*)\.$
+^The thorny vines of the Viridian (\w+) lash out and rip into your (.+)\.$
+^The Ur'Vampire Prioska bows her head, slumping forward as if in deep thought. You feel drawn, thinned, and the world around you speeds up noticeably\.$
+^They seize your (\w+) (\w+) with a bonecrunching grip!$
+^Thorny vines whip out from a stick(?:man|woman) and wrap around you, pricking and binding you\.$
+^Thrusting at (\w+)'s chest with a blade hand outstretched, you release an unmitigated torrent of Shin energy upon (\w+), and (\w+) crumples helplessly\.$
+toward your head\.$
+^Turning to a crystalline golem you direct him to project a disruptive tone at a (\w+) vibration\.$
+^Turning to face (\S+) you utter, "Uraiad"\.$
+^Use MSG LIST (\d+) to see more of your message summary\.$
+^Use MSG SEARCH FROM (\w+) (\d+)
+^Using a heavy tremolo (\w+) brutally punishes your already shattered (left|right) leg\.$
+^Using a heavy tremolo (\w+) crushes your (right|left) leg\.$
+^Using a heavy tremolo you brutally punish (\w+)'s already shattered (?:left|right) leg\.$
+^Using a heavy tremolo you crush (\w+)'s (?:left|right) leg\.$
+^Vapourous mist coalesces about (\w+)'s form as the surroundings cool\. Moisture in the air crystallises into tiny shards of ice, which hang, unmoving, until a gesture from (\w+) sends them whirling upon a bitter white wind to cut into your flesh\.$
+(\w+)\.$
+^(\w+) aims a devastating blow with (.+) at your already injured legs\.$
+^(\w+) balls up one fist and hammerfists you\.$
+^(\w+) begins planting a flag!$
+^(\w+) begins to bear down on you with (\w+) whirling (.+)\.$
+^(\w+) begins to chant darkly and crusty green sores coat (\w+) hands\. (\w+) begins to flail (\w+) arms wildly and one of (\w+) hands brushes your skin\. Immediately, your (left|right) (arm|leg) and (left|right) (arm|leg) shrivel up in response\.$
+^(\w+) begins uprooting a flag\.$
+^(\w+) belts out a meaningless screech of varying pitch at you\.$
+^(\w+) blows an Aeon tarot at you, destroying your speed defence\.$
+^(\w+) bows (\w+) head and mutters something, then flings a tarot card at you\. A set of scales appears above your head and one side of the scale quickly descends\. You have a bad feeling about this\.$
+^(\w+) bows (\w+) head in silent prayer\.$
+^(\w+) brings (.+?) down upon you with a brutal overhand blow\.$
+^(\w+) brings (.+) whirling about to cleave deeply into your already damaged arms\.$
+^(\w+) brings (\w+) shield crashing down onto your sternum, stunning you!
+^(\w+) calls upon (\w+) and unleashes a forceful blow at your (.+) with (\w+) staff\.$
+^(\w+) calls upon Whiirh and strikes you with (\w+) staff, the power of air dispersing your aura of rebounding\.$
+^(\w+) calls upon Whiirh and strikes you with (\w+) staff, throwing you down with a gust of wind\.$
+^(\w+) casts a hand out in your direction, an icy zephyr descending upon you to tear your fortitude away\.$
+^(\w+) casts a net of stupidity over your mind\.$
+^(\w+) casts a spell of erosion at you\.$
+^(\w+) chants and the room is engulfed in flying thorns, striking you from all directions\.$
+^(\w+) chants 'GIMMEGIMME' at you and you begin to feel quite generous\.$
+^(\w+) claps (\w+) hands and the retardation vibration is dampened\.$
+^(\w+) clasps (\w+) hands in solemn supplication, a recital of your many sins spilling forth in a fervent prayer\.$
+^(\w+) clenches a hand into a fist, a sudden force locking closed about your throat and constricting your airflow\.$
+^(\w+) clicks (\w+) fingers and a brilliant flash of light bursts forth, restoring your vision\.$
+^(\w+) clicks (\w+) fingers at you and a brilliant flash of light bursts forth, transfixing you with its brilliance\.$
+^(\w+) cocks back (\w+) arm and throws a throwing axe at your (.+)\.$
+^(\w+) comes around with a terrible swing of (.+?) toward your
+^(\w+) connects to the (.+)!$
+^(\w+) curses you with the visage of a rotting corpse\.$
+^(\w+) darts to your mount's flank in a rapid dash\. Grabbing your ankle and executing a graceful twist, (\w+) sends you tumbling from the saddle\.$
+^(\w+) deftly hooks (.+) behind your foot and sends you tumbling off (.+) before driving the point of the weapon into your (?:right|left) leg\.$
+^(\w+) deftly thrusts (.+?) into you
+^(\w+) delivers a lightning-fast strike to you with (.+)\.$
+^(\w+) directs (\w+) searing gaze towards you\.$
+^(\w+) dodges nimbly to the side and trips you to the floor\.$
+^(\w+) does a back handspring to the (\w+), striking you with (\w+) feet on the way out\.$
+^(\w+) does not yet labour under enough afflictions to be cursed with the power of Cadmus\.$
+^(\w+) draws a circle in the air with (\w+) wand, and a fiery outline appears\.$
+^(\w+) draws back with a knowing smirk and utters some alien word that vibrates deep within your bones\. Your mind swirls and body convulses in excruciating pain as your very spirit cries out in agony\.$
+^(\w+) draws back (\w+) warhammer, then unleashes a precise blow that smashes into your arms with bone cracking force\.$
+^(\w+) draws back (\w+) warhammer, then unleashes a precise blow that smashes into your legs with bone cracking force\.$
+^(\w+) draws (.+?) in an expert lateral slice across your (.+?)\.$
+^(\w+) draws (.+?), then lunges forward with a savage strike to your ribs\.$
+^(\w+) draws (\w+) blade back and plunges it deep into your helpless body impaling it to the hilt\.$
+^(\w+) draws you into (\w+) gaze, lowering (\w+) brow and glaring at you with righteous fury\. Pointing at you with a single raised finger, (\w+) recites a list of your transgressions, condemning your actions and words\. A blaze of holy fire surges about (\w+) as (\w+) dictates your sentence\.$
+^(\w+) drives the edge of (\w+) shield into your throat, cutting off your air supply\.$
+^(\w+) drops into a low crouch, sweeping (.+?) beneath your guard and tangling it with your legs\.$
+^(\w+) ducks low and smashes (\w+) shield into your knees, causing them to buckle underneath you\.$
+^(\w+) ducks low\, (\w+) blade slicing into your (.+)\.$
+^"We shall not falter," you murmur, laying a hand upon the brow of (\w+)\.$
+^"We will endure until our work is done," you murmur, laying a hand upon the brow of (\w+)\.$
+^(\w+) exhales loudly\.$
+^(\w+) exhales softly\.$
+^(\w+) expertly flourishes (.+?) in front of your face\.$
+^(\w+) explodes upward from a low crouch, driving (.+?) toward your torso\.$
+^(\w+) eyes dark and expression blank, (\w+) strikes you a hollow blow\.$
+^(\w+) eyes gleaming, (\w+) smiles and quickly sings a jaunty limerick at you\.$
+^(\w+) falls upon you with both of (\w+) weapons whirling, viciously assaulting your (.+?)\.$
+^(\w+) falls upon you with both of (\w+) weapons whirling, viciously assaulting your head\.$
+^(\w+) fashions a holocaust globe out of pure elemental fire and arms it\.$
+^(\w+) fashions a sphere of crackling electricity and arms it\.$
+^(\w+) fixes (\w+) gaze to yours, raising (\w+) right hand, before sharply snapping (\w+) fingers\.$
+^(\w+) flays away your aura of rebounding defence\.$
+^(\w+) flays away your speed defence\.$
+^(\w+) flays the quicksilver coating from you\.$
+^(\w+) flays the sileris coating from you\.$
+^(\w+) flicks the temple of a (?:doll|puppet) of (\w+), hard\.$
+^(\w+) flicks the temple of a puppet of (\w+), hard\.$
+^(\w+) flings a tarot card at you and upon impact, it disappears\. An ominous silence overtakes your surroundings\.$
+^(\w+) flings a tarot card at you which turns an ominous, sickly red before striking you in the head\.$
+^(\w+) flourishes (.+?) in front of your eyes, mesmerising you\.$
+^(\w+) gathers (\w+) breath and hurls a piercing battlecry towards you\.$
+^(\w+) gestures grandly, and causes a deepfreeze to settle over (\w+) enemies\.$
+^(\w+) gestures sharply in your direction, and a mass of green slime flows up and over you, coating your skin\.$
+^(\w+) gestures sharply in your direction with one hand, and invisible whips viciously lash at you\.$
+^(\w+) gives a yell and slaps (.+), who powerfully kicks you with its hind legs and sends you sailing (\w+) with arms flailing\.$
+^(\w+) gives you a vengeful stare, and dark images begin to whisper to you from the edges of your mind\.$
+^(\w+) glances at you while adding some facial detail to a doll\.$
+^(\w+) glances at you while adding some facial detail to a puppet\.$
+^(\w+) grows older before your eyes\.$
+^(\w+) grows very still for a moment, before (\w+) eyes snap wide open and you feel something icy wrap about your limbs, binding you in place\.$
+^(\w+) grows very still, (\w+) unblinking gaze locking to your own\.$
+^(\w+) has transferred command of the ship "(.+?)" to you\.$
+^(\w+) health is at (\d+) out of (\d+)\.$
+^Whispering a prayer to the (\w+) winds, (\w+) draws (\w+) (\w+) and unleashes a slash towards your (.+)\.$
+^(\w+) howls in pain as thorny vines lash out at (\w+) from all sides\.$
+^(\w+) hurls a tarot card with the image of the Hanged Man on it at you\. As it reaches you, a huge mass of rope bursts out of it, entrapping and hindering you\.$
+^Why would you reject (\w+)\?$
+^(\w+) illuminates you with a radiant light\.$
+^(\w+) inhales and begins holding (\w+) breath\.$
+^(\w+) invokes the powers of Air and lays (\w+) hands on you\.$
+^(\w+) invokes the powers of (.+) and lays (\w+) hands on you\.$
+^(\w+) is not afflicted with that\.$
+^(\w+) is not yet afflicted enough to be weakened in such a way\.$
+^With a casual wave of the hand, (\w+) brings a spinning tornado into being\.$
+^With a characteristic Jaziran trill, (\w+) sings a qasida of asceticism to you\.$
+^With a daegger in hand, (\w+) begins to close in on you\.$
+^With a frustratingly irrelevant vibrato you aim at (\w+)'s (?:left|right) arm\.$
+^With a grand gesture of righteous fury, (\w+) bedevils you with (\w+) afflictions\.$
+^With a grand gesture of righteous fury, you draw upon the elemental forces at your command and bedevil (\w+) with your afflictions\.$
+^With a gravity born of respect, you sing of the saintly Imithia, if only for yourself\.$
+^With a gravity born of respect, you sing of the saintly Imithia of legend, bringing a certain dull look to (\w+)'s face\.$
+^With a grimness born of determination, you begin to unleash the Dragon that is now so much a part of the fabric of your soul\. A (\w+) light begins to shine through from within you\.$
+With all (\w+) wooden strength, a stick(?:man|woman) picks you up as though you were a rag doll and smashes you into the ground\.
+^With almost magical swiftness, a snarling wolf leaps out at (\w+), rakes its claws across (\w+) face, and disappears into the surrounding forest\.$
+^With a mournful cry you begin the requiem for Seleucar to (\w+), who appears unmoved\.$
+^With an appraising glance at you, (\w+) shapes the arms and legs of a rough doll\.$
+^With an appraising glance at you, (\w+) shapes the arms and legs of a rough puppet\.$
+^With a pop of (\w+) knuckles, (\w+) buries (\w+) foot under your back and flips you overonto your stomach\.$
+^With a single, terrible blow, you bring (.+?) whirling about to cleave into the already injured arms of (\w+)\.$
+^With a smooth lunge to the (left|right), (\w+) draws (\w+) (\w+) from its scabbard and delivers a powerful slash across your legs\.$
+^With a snarl of contempt, (\w+) allows you to slide free of (\w+) weapon\.$
+^With a snarl, (\w+)'s Baalzadeen opens its mouth and spews a foul black liquid all over you\.$
+^With astonishing quickness, a diminutive homunculus resembling (\w+) moves to block your egress\.$
+^With a swipe of (\w+) arm, (\w+) sends two barbed vines slicing through the air toward your throat\.$
+^With a synchronous, guttural rasp, (\w+)'s many serpentine heads breathe forth wisps of rapidly condensing smoke that entangle you in a tangible web\.$
+^With a terrible roar ([\w'\-]+) whips a colossal fist at your (.*)\.$
+^With a trilling vibrato (\w+) attacks your broken (left|right) arm causing you to scream in pain\.$
+^With a trilling vibrato (\w+) shatters your (right|left) arm\.$
+^With a trilling vibrato you attack (\w+)'s broken (?:left|right) arm. (\w+) screams in pain\.$
+^With a trilling vibrato you shatter the (?:left|right) arm of (\w+)\.$
+^With a vicious snarl (\w+) carves a merciless swathe through your steaming guts\. You gurgle and choke as (\w+) withdraws (\w+) dripping blade, glistening with gore\.$
+^With a wink, you recite "Ode to Elixirs" to (\w+)\.$
+^With a wink, you recite "Ode to Elixirs" to (\w+), who looks on, unimpressed\.$
+^With blinding speed, (.+) transfixes you with a swirling pattern of fire and air\.$
+^With calculated precision, (\w+) unleashes a mighty blow at your arms, shattering bone and pulping flesh\.$
+^With calculated precision, (\w+) unleashes a mighty blow at your legs, shattering bone and pulping flesh\.$
+^With casual indifference, (\w+) summons forth a terrible cyclone of wind, which picks you up like a leaf and whips you uncontrollably into a spin\.$
+^With efficient, precise motions a crystalline golem latches onto your (left|right) (arm|leg), before giving a vicious twist\.$
+^With impossible speed the hand of (\w+) lashes out, striking yours even as you make contact with your tattoo\.$
+^With one hand ominously pointed towards you, (\w+) rubs a finger over the heart of a puppet\.$
+^With one hand ominously pointed towards you, (\w+) rubs a finger over the heart of a Vodun doll\.$
+^With rapid precision, (\w+) aims first a punch then a spearhand blow at two points on your chest\.$
+^(\w+) knocks your legs out from under you and sends you sprawling to the floor\.$
+^(\w+) labours under no afflictions of the body\.$
+^(\w+) launches a devastating slash at your already injured arms, (\w+) blade cleaving to the bone\.$
+^(\w+) launches a devastating slash at your already injured legs, (\w+) blade cleaving to the bone\.$
+^(\w+) lays into you with a savage blow from (.+)\.$
+^(\w+) lays open your flesh with an expert lateral slice with (.+?)\.$
+^(\w+) leaps from the shadows and plunges a dagger into your unsuspecting back!$
+^(\w+) lets fly at you with a snap kick\.$
+^(\w+) lightly strikes the side of your head with (\w+) rapier, restoring your hearing\.$
+^(\w+) locks (\w+) unnatural gaze to yours, and a terrible pressure begins to build behind your eyes\.$
+^(\w+) looks at your eyes and makes some alterations to (\w+) doll\.$
+^(\w+) looks at your eyes and makes some alterations to (\w+) puppet\.$
+^(\w+) looks closely at your hands and alters a puppet\.$
+^(\w+) looks closely at your hands and alters a Vodun doll\.$
+^(\w+) lowers
+^(\w+) lunges downward, slamming the edge of (.+?) into your shins\.$
+^(\w+) lunges forward with long, flashing claws extended, tearing down to the bones of your (\w+) (\w+)\.$
+^(\w+) makes a quick, sharp gesture toward you\.$
+^(\w+) makes a sudden, quick gesture in front of you, almost hitting your nose\. (\w+) hand glows with a vibrant violet light before snapping back to (\w+) side\.$
+^(\w+) mana is at (\d+) out of (\d+)\.$
+^(\w+) masterfully adds heavier, darker tones to (\w+) song, which rises and falls with a melancholy rhythm\.$
+^(\w+) mouth moving rapidly, a hepatizon malagma gestures at you and you drop to the ground, all of your limbs suddenly heavy beyond belief\.$
+^(\w+) moves in and delivers a precision strike to your neck as you attack\.$
+^(\w+) moves into the deeply mournful yet glorious tones of a funeral mass, directing the performance towards (\w+)\.$
+^(\w+) moves into your attack, knocking your blow aside before viciously countering with a strike to your head\.$
+^(\w+) negligently waves (\w+) hand in your direction, conjuring forth a hailstone which strikes you sharply in the side of the head\.$
+^(\w+) on the ground\.$
+^(\w+) passes (\w+) hand in front of you\. You feel an invisible claw brush the back of your skull\.$
+^(\w+) permits your assumption of command of the ship "(.+?)"\.$
+^(\w+) points a finger at you and you feel anti-magic sweep over you\.$
+^(\w+) points an imperious finger at you\.$
+^(\w+) points a ring of pestilence at you\.$
+^(\w+) points (\w+) fists at you and blasts you with frigidly cold air\.$
+^(\w+) pounces on you from an unseen hiding place, knocking you to the ground and tearing at you with teeth and claws\.$
+^(\w+) presses a tarot to your forehead and a sensation of warmth ripples through your body\.$
+^(\w+) pricks you twice in rapid succession with (\w+) dirk\.?$
+^(\w+) pulls back a(.+), readying (\w+) for a deadly strike\.$
+^(\w+) quickly binds up your hands and feet, leaving you helpless\.$
+^(\w+) quickly flings a tarot card at you, and you feel unreasonable lust for (\w+)\.$
+^(\w+) quickly pricks you with (\w+) dirk\.$
+^(\w+) quickly trusses you up\.$
+^(\w+) raises a hand towards you and blasts you with cold, frigid air\.$
+^(\w+) raises Earthshaker above \w+ head and smashes its face into the ground with a mighty roar\. The earth around you shakes violently\.$
+^(\w+) raises (?:Gattan'lier's hunger|an insubstantial dagger) and points it at you with a sinister smile\.$
+^(\w+) raises (.+) (m|M)ace over you to pass judgement on your sins, and it begins to crackle with righteous fire\.$
+^(\w+) raises (\w+) hands above (\w+) head, gaze focused intently upon you\. Moments later, a single lightning bolt streaks down from above, slamming into you with an explosion of brilliant power\.$
+^(\w+) raises (\w+) (.+) over (\w+) head and begins to swing it in a wide circle, gaining speed as (\w+) goes\.$
+^(\w+) raises (\w+) right hand, and snaps (\w+) fingers\.
+^(\w+) raises (\w+) trunk into the air and trumpets mightily, knocking you to the ground\.$
+^(\w+) razes your aura of rebounding with
+^(\w+) razes your speed defence with
+^(\w+) reaches out and bops you on the nose with (\w+) blackjack\.$
+^(\w+) reaches out and clasps your face between searing hands, (\w+) touch alone searing you to the bone and setting every muscle to spasming\.$
+^(\w+) reaches out and grabs your leg, which almost gives way underneath you as it shrivels feebly away\.$
+^(\w+) reaches out and presses a single stone digit to your (\w+), and a sudden tingling overtakes the limb\.$
+^(\w+) recites an obscure, confusing Kamleikan haiku to you\.$
+^Wrenching pain shoots through your (arm|leg)s as they are twisted and broken by an unknown force\.$
+^(\w+) rises back on (\w+) hind legs, more than doubling in height as (\w+) towers above you\. The ground shakes violently as (\w+) slams (\w+) feet back down, recklessly crushing everyone in (\w+) path\.$
+^(\w+) rubs a tarot card on your arm\. You feel slightly nauseated and drained\.$
+^(\w+) rubs (\w+) fingers briskly on a Tarot card\.$
+^(\w+)'s aura of weapons rebounding disappears\.$
+^(\w+) savagely gouges into you with (.+?)\.$
+^(\w+)'s Baalzadeen casts a piercing glance at you\.$
+^(\w+) sends an icy blue tendril of light that lashes out at you and wraps around you, sending a strange chill deep into your bones\.$
+^(\w+) sends the cold of the grave to freeze you\.$
+^(\w+) sets a jack-in-the-box on the ground and quickly winds it while whispering, '(\w+)\.' The cheerful music of a lute begins to emanate from it\.$
+^(\w+)'s eyes flutter and close as (\w+) begins to rock back and forth, chanting ominously under (\w+) breath\.$
+^(\w+)'s eyes narrow as (\w+) massive jaws yawn open and (\w+) expels a sluggish cloud of (\w+)\. The nebulous haze clings to you for a moment, and you feel your (.+) and (.+) defences vanish\.$
+^(\w+)'s eyes narrow as (\w+) massive jaws yawn open and (\w+) expels a sluggish cloud of (\w+)\. The nebulous haze clings to you for a moment, and you feel your (.+) defence vanish\.$
+^(\w+)'s flashing blade dances before your eyes in a series of complicated feints\. Time to run!$
+^(\w+)'s guardian angel's eyes glow like embers as searing heat pours over you, causing you to burst into flames\.$
+^(\w+) shapes a jagged bolt of lightning and hurls it into you\.$
+^(\w+) shifts into a more aggressive stance\.$
+^(\w+) shuffles some cards with the image of Lust out of (\w+) deck\.$
+^(\w+) shuffles some cards with the image of the Aeon out of (\w+) deck\.$
+^(\w+) sings a pastorale of the fields and streams to you\. You feel reluctant to leave the ground\.$
+^(\w+) sings a sonorous chant at you, stripping your (.+) defence\.$
+^(\w+) sings the Passion of Imithia and your mind glazes with its beauty\.$
+^(\w+) sinks (\w+) fangs into your body and you wince in pain\.$
+^(\w+) slams into you, knocking you off your feet and stunning you!$
+^(\w+) slams into you, knocking you to the ground as (\w+) feet slam into your chest\.$
+^(\w+) slashes into your (.+) with
+^(\w+) slowly raises (\w+) head and you see (\w+) eyes glowing bright white\.$
+^(\w+)'s mace begins to make a high-pitched keening sound as it rapidly spins over (\w+) head\. You have only moments left to escape before you are judged!$
+^(\w+)'s mana stands at (\d+)/(\d+)\.$
+^(\w+) snaps (\w+) massive jaws close around you, flinging you effortlessly into the air before catching you with a second powerful bite\.$
+^(\w+)'s nostrils flare wildly with a great rush of air as (\w+) sinuous body contracts and (\w+) mouth opens wide to emit a rippling, unbroken roar that reverberates through your body\.$
+^(\w+) spins a (?:doll|puppet) of (\w+) rapidly in a circle\.$
+^(\w+) spins in a quick circle, using the momentum to savagely strike your chin with the edge of (.+?)\.$
+^(\w+)'s poem of gluttony and decay makes you feel ill\.$
+^(\w+) springs forwards and mauls your (.+)\.$
+^(\w+) stands a tarot on (\w+) open palm, and blows it lightly at you\. Suddenly your movement through the time stream is slowed\.$
+^(\w+) stands, wide-eyed with terror, as the blazing sphere slams into (\w+) body, burning (\w+) horribly\.$
+^(\w+) stares at you, giving you the evil eye\.$
+^(\w+) steps into the attack, grabs your arm, and throws you violently to the ground\.$
+^(\w+) stops uprooting the flag\.$
+^(\w+) stops you from moving that way\.$
+^(\w+) strikes your (\w+) (\w+) a mighty blow\.$
+^(\w+) sucks in a huge lungful of air and blasts (\w+) fiery breath at you\. You scream in agony as the horrific flames crackle over your melting flesh\.$
+^(\w+) suddenly inhales deeply\.$
+^(\w+) suddenly releases \w+ vice-like grip on you\.$
+^(\w+) summons a blade of condensed air and shears cleanly through the magical shield surrounding you\.$
+^(\w+) summons forth a terrible cyclone of wind, picking you up and whipping you violently against all available surfaces until your head spins and your body aches\.$
+^(\w+) sweeps (.+) in a circle above (\w+) head, the point of the blade coming to rest aimed at you\. You feel a sharp pain, gone as swiftly as it came, and a fine crimson spray falls about you and (\w+)\.
+^(\w+) swiftly sweeps your feet out from beneath you with (.+) before driving the point of the weapon into your (?:right|left) leg\.$
+^(\w+) swings (.+) at your (.+) with all (\w+) might\.$
+^(\w+) swings the crackling mace about (\w+) head, gathering momentum as (\w+) bears down on you\.$
+^(\w+) swings (\w+) quarterstaff with all (\w+) might, generating a great wind\.$
+^(\w+) swoops down from the skies towards you, and before you can resist has lifted you off your feet and carries you, kicking uselessly, in firm talons into the sky above\.$
+^(\w+) takes a step forward, bringing (.+?) in for a second quick jab\.$
+^(\w+) throws a Lovers tarot at you and as it strikes true, you fall hopelessly in love with (\w+)\.$
+^(\w+) throws a sultry glance at you, and bursts into song with her angelic voice. In an instant, your heart is hers\.$
+^(\w+) throws (\w+) palm towards your face\.$
+^(\w+) thrusts one hand in your direction and a vicious wind is summoned forth, viciously lacerating you\.$
+^(\w+) thrusts (.+?) towards you\.$
+^(\w+) tramples over you with (\w+) enormous body\.$
+^(\w+) tumbles into a backflip to the up, kicking you in the back of the knee, which gives out and trips you to the ground in the process\.$
+^(\w+) turns to a crystalline golem, a silent exchange taking place\.$
+^(\w+) turns to face (\w+), eyes glowing ominously\. Two radiant arcs of white lightning dart forth from them, enveloping (\w+) who screams and slowly dies as (\w+) is burned alive\.$
+^(\w+) turns to fix (\w+) gaze upon you, and you feel your heart increase its palpitations as a low keening echoes from (\w+) throat\.$
+^(\w+) twists and contorts the wooden tongue of a puppet of (\w+)\.$
+^(\w+) twists (\w+) torso and sends a roundhouse towards you\.$
+^(\w+) unleashes a bone crushing blow with (.+) at your arms, pulverising meat and bone in a single strike\.$
+^(\w+) unleashes a bone crushing blow with (.+) at your legs, pulverising meat and bone in a single strike\.$
+^(\w+) unleashes a reckless burst of white-hot flames, creating a roaring inferno about (\w+) person\.$
+^(\w+) unleashes a terrible blow at your (?:left|right) (?:arm|leg) with
+^(\w+) unleashes a vicious slash towards you before resheathing (\w+) blade, (\w+) (\w+)\.$
+^(\w+) utters a prayer and smites your (left|right) (arm|leg) with
+^(\w+) utters a terrible curse and points a finger at you\.$
+^(\w+) viciously gouges your (.+?) with (.+?)\.$
+^(\w+) viciously jabs a needle-pointed dirk into you\.$ 
+^(\w+) viciously jabs (.+) into you
+^(\w+) viciously jabs (.+) into your (.+)\.$
+^(\w+) viciously lacerates your (.+?) with (.+?)\.$
+^(\w+) viciously lacerates you with (.+?)\.$
+^(\w+) viciously smashes (\w+) quarterstaff into your legs, sending you sprawling\.$
+^(\w+) violently grabs your already damaged (\w+) (\w+), wrenches you off balance, then throws you violently to the ground\.$
+^(\w+) waves a hand in your direction and you feel energy wreathing about you\. A strong burning sensation rushes through your body\.$
+^(\w+) waves a hand in your direction and you feel energy wreathing about you\. Small patches of your skin waver before turning into shards of sharp glass\.$
+^(\w+) waves (\w+) hands quickly in front of the eyes of a (?:Vodun doll|puppet) of (\w+)\.$
+^(\w+) whips (.+?) in a savage arc, cleaving at your legs\.$
+^(\w+) whips (.+?) in a swift motion toward you, scything through your (.+?) defence\.$
+^(\w+) whips (.+) into a fury, bucking and racing dangerously in a circle, trampling the ground in a frenzy\.$
+^(\w+) whirls (.+) in a terrible two-handed blow, aimed at your already injured arms\.$
+^(\w+) whispers comforting words to a (?:puppet|doll) of (\w+)\.$
+^(\w+) whispers "Sleep...sleep" to a doll of (\w+)\.$
+(\w+) wields a runic totem in both hands
+^You allow \d+ to assume command of the ship "(.+?)"\.$
+^You are held motionless by (\w+)'s epic tale of Nicator's heroism and bravery\.$
+^You are knocked forcefully off your feet by the impact of (\w+)'s huge tail\.$
+^You are now unnaturally aged by (\d+) years\.$
+^You attempt to sit on (\w+), but you miss and land with a bump\.$
+^You begin moving your frozen body slowly (\w+)\.$
+^You begin reciting an epic tale of the heroism of Nicator to (\w+), holding (\w+) spellbound\.$
+^You begin somersaulting towards the (\w+)\.$
+^You begin to panic as you see a kena rune on (?:the ground|a totem)\.$
+^You begin to tumble agilely to the (\w+)\.$
+^You begin to writhe furiously to escape the (\w+) that has impaled you\.$
+^You belt out a meaningless screech of varying pitch at (\w+) who appears unaware of your artistry\.$
+^You bleed (\d+) health\.$
+^You bleed (\d+) mana\.$
+^You call upon the powers of (.+) and project your healing through your Spirit channel\.$
+^You cannot wield that on the (\w+) due to injuries\.$
+^You carefully turn (.+?) and refill (.+?) with (.+)\.$
+^You cease to wield (.+)\.$
+^You change builder bounty #(\d+)'s content\.$
+^You chant 'GIMMEGIMME' at (\w+), who does not react\.$
+^You command a diminutive homunculus resembling (\w+) to give (.+) to (\w+)\.$
+^You command a diminutive homunculus resembling (\w+) to move to the (\w+)\.$
+^You command your bloodleech to poison the blood of (\w+) with (\w+)\.$
+^You command your bubonis to bring down a minor curse of Cadmus against (\w+)\.$
+^You command your chaos storm to bring down the curse of (\w+) upon (\w+)\.$
+^You command your chimera to annihilate the defences surrounding (\w+)\.$
+^You command your crone to unhinge the mind of (\w+)\.$
+^You command your dervish to drag (\w+) from the skies\.$
+^You command your firelord to bring down a portion of the power of Pyradius against (\w+)\.$
+^You command your hound to rend the flesh of (\w+)\.$
+^You command your humbug to bring down the curse of (\w+) upon (\w+)\.$
+^You command your slime to envelop (\w+)\.$
+^You command your sycophant to weaken the mind of (\w+)\.$
+^You command your worm to infest (\w+) with maggots\.$
+^You eat ([^\.]+)\.$
+^You feel a deadening pall overcome your mind, put there by (\w+)\.$
+^You feel an unusually strong lust for (\w+)(\.| \(M\)\.)$
+^You feel a slight tingle across your skin as (\w+) glances at you, but it soon fades\.$
+^You feel a strong tug in the pit of your stomach\. Your surroundings dissolve into the featureless swirl of the ether, resolving once more into a recognisable landscape as you land before (\w+)\.$
+^You feel a sudden wave of malaise as your (choleric|melancholic|phlegmatic|sanguine) humour is tempered\.$
+^You feel bones grinding against one another as the fist of ([\w'\-]+) smashes into your (.*) with pulverising force\.$
+^You feel drawn, thinned, and the world around you speeds up noticeably
+^You feel suddenly clumsy beside the graceful maqam of el'Jazira that (\w+) sings at you\.$
+^You feel the spiritual presence of (\w+) touch you momentarily\.$
+^You feel (\w+)'s mind attacking yours from all sides, and you lose your mental equilibrium\.$
+^You feel your body and mind ripped apart as you are enfeebled by (\w+)\.$
+^You feel your (.+) defence get picked off you somehow\.$
+^You feel your (.+) defence stripped by the powerful lightning bolt\.$
+^You feel your (right|left) (arm|leg) snap\.$
+^You get (\d+) (\w+) from your pocketbelt\.$
+^You glance over (\w+) and see that (\w+) health is at (\d+)/(\d+)\.$
+^You glower at (\w+), preparing to assault (\w+) humours\. You make a gesture toward (\w+), grabbing at the ether strand binding you\.$
+^You groan in pain as (\w+) twists the blade within your gut\.$
+^You have achieved transcendence: your body and mind operate as one\.$
+^You have added the (\w+) affliction to your predicted afflictions list\.$
+^You have no (.+) stored in the Rift\.$
+^You have no (.+) suitable for butchering\.$
+^You have now aged yourself by (\d+) years\.$
+^You hold no "(\w+)"\.$
+^You invoke the powers of (.+) and lay your healing hands on yourself\.$
+^You just received message #(\w+) from (\w+)\.$
+^You know on an instinctive level that if (\w+) is allowed to continue, it shall be your end\.$
+^You let the grace of your voice shine forth with a Scarlattan cantata at (.+)\.$
+^You light (.+)\.$
+^You look through the mind of a diminutive homunculus resembling (\w+):$
+^You lunge forward at (\w+) with (.+?), but stumble hopelessly off balance\.$
+^You mindlessly obey the summoning of (\w+)\.$
+^You move over to block the (.+) exit\.$
+^You order a diminutive homunculus resembling (\w+) to get (.+)\.$
+^You order your homunculus to drop (.+)\.$
+^You order your homunculus to say, "(.*)"\.$
+^You point (.+) at something, but the purpose of doing so eludes you\.$
+^You put (\d+) (.+?) in your pocketbelt\.$
+^Your blindness is cured by a wunjo rune on (?:a totem|the ground)\.$
+^Your body and mind are in perfect harmony; transcendence is yours\.$
+^Your body and mind continue to harmonise: you are (\d+) percent of the way to full transcendence\.$
+^Your body and mind fall out of their transcendent state\.$
+^Your body locks in paralysis as a burst of arcane power floods your system, directed by (\w+)\.$
+^Your cantata shatters the defences surrounding (\w+)\.$
+^Your cantata shatters the magical shield surrounding (.+)\.$
+^your choleric (?:humour|temper) has been tempered a total of (\d+) times\.$
+^Your (choleric|melancholic|phlegmatic|sanguine) humour drains some\.$
+^Your command separator is now: (.+)$
+^"Your crimes shall not go unpunished," you recite to (\w+), voice hard with condemnation\.$
+^Your current separator is: (.+)$
+^Your (.+) defence corrodes beneath its profane proximity\.$
+^Your (.+) defence erodes away\.$
+^Your (.+) defence has been stripped as your body vibrates in sync with a dissonant vibration\.$
+^Your (.+) defence has been stripped by (\w+)'s Baalzadeen\.$
+^Your (.+) defence has been stripped by (\w+)'s guardian angel\.$
+^Your (.+) defence is destroyed by an unseen force\.$
+^Your (.+) defence is ripped apart by its talons\.$
+^Your (.+) defence is stripped away\.$
+^Your (.+) defence is torn to tatters by her jaws\.$
+^You realise with horror that the eldritch utterence has caused (\d+) insanities to descend upon you\.$
+^Your ears are abruptly filled with the shockingly loud clap of nearby thunder, summoned forth by (\w+)\.$
+^You reel as your mind is viciously battered by a mental assault from (\w+)\.$
+^You reject the friendship of (\w+)\.$
+^You're knocked to the ground by the impact of (\w+)'s feet\. Your surprise is quickly supplanted by pain as (\w+) skewers you like a wild boar\.$
+^You remove (\d+) (.+), bringing the total in the (?:R|r)ift to (\d+)\.$
+^Your guardian burns with a power of (\d+) of a maximum (\d+)\.$
+^Your inaction causes the harmonisation of your body and mind to falter: you are now only (\d+) percent of the way to transcendence\.$
+^Your left arm goes abruptly numb as (.+?) crunches home\.$
+^Your (?:left|right) (?:leg|arm) is too mangled to cure in that manner\.$
+^Your limbs lock up in paralysis as you see an inguz rune on (?:the ground|a totem)\.$
+^Your magics around the (\w+) channel have been destroyed by the knife sigil\.$
+^your melancholic (?:humour|temper) has been tempered a total of (\d+) times\.$
+^Your mind feels suddenly vacant as (.+) levels its gaze at you\.$
+^Your mind is disrupted by the irritating ditty (\w+) sings at you\.$
+^Your only warning of the impending danger is a great shout from (\w+) as (\w+) comes launching up from below\. Then (\w+) heel drives into your chest with shocking power, driving you back to the earth below with bone jarring force\.$
+^your phlegmatic (?:humour|temper) has been tempered a total of (\d+) times\.$
+^Your recitation of an epic tale of the heroism of Nicator has no effect on (\w+)\.$
+^Your right arm goes abruptly numb as (.+?) crunches home\.$
+^Your (right|left) (arm|leg) is suddenly mangled nearly beyond repair, and pain erupts up and down the length of it\.$
+^Your (right|left) (leg|arm) is too (?:damaged|mangled) to cure in that manner\.$
+^Your (right|left) (leg|arm) is too damaged to cure in that manner\.$
+^your sanguine (?:humour|temper) has been tempered a total of (\d+) times\.$
+^"Your sins condemn you to this fate," you recite to (\w+), voice hard with condemnation\.$
+^Your soul burns as, at the behest of (\w+), the power of (\w+) sears it\.$
+^Your voice rises to the heavens with your instrument as you sing an Aria of healing to (\w+)\.$
+^Your voice rises to the heavens with your instrument, but without your audience, as you sing an Aria of healing to (\w+)\.$
+^Your (\w+) arm is too severely damaged to permit that\.$
+^Your world becomes nothing but stars as the haft of (.+?) slams into the side of your head, courtesy of (\w+)\.$
+^Your (\w+) summoning is complete\.$
+^Your (\w+) (\w+) is greatly damaged from the beating\.$
+^You scrabble futilely at the ground as (\w+) drags your impaled body off to the (\w+)\.$
+^You see no (\w+) in your inventory\.$
+^You sing a sonorous chant which fails to strip the defences of (\w+)\.$
+^You slowly hobble (\w+)\.$
+^You speak words of power over (.+)\.$
+^You store (\d+) (.+?), bringing the total in the rift to (\d+)\.$
+^You store (\d+) (.+), bringing the total in the rift to (\d+), which is the maximum for that type of object\.$
+^You store (\d+) (.+), bringing the total to (\d+)\.$
+^You strike out at (\w+) with your deadly tail, and sting (\w+)\.$
+^You stumble slightly as (\w+) touches your (left|right) leg, and it shrivels away\.$
+^You suddenly feel that it would be a fine idea to relax your (.+) defence\.$
+^You suddenly get the feeling that eating (kelp|goldenseal|lobelia|ash|bellwort) would be a very bad idea indeed\.$
+^You (?:take a drink from|down the last drop from)
+^(?:You take a long drag(.*?) off your pipe\.|Your draw is accompanied by a deep gurgling sound before a series of shining bubbles erupt from the bowl of your pipe\.)$
+^You take out some salve and quickly rub it on your 
+^You take the hand of (\w+) and clasp your own hands around it. You stare deep into (\w+) eyes, summoning forth the karmic knowledge deep within you and willing it towards (\w+)\.$
+^You watch in horror as (\w+) touches your (right|left) arm, and it shrivels away to uselessness\.$
+^You whip (.+?) at (.*)\.
+^You whip (.+?) at the side (.*)\.
+^You whip (.+?) in a vicious arc, hewing savagely into the legs of (\w+)\.$
+^You will now attempt to intercept and counter attacks coming at your (.+)\.$
+^You will now attempt to parry attacks to your (.+)\.$
+^You will now use mana if above (\d+)% of your maximum mana reserves\.$
+^You will now use your razor-sharp talons to parry attacks to your (.+)\.$
+^You writhe and scream as (\w+) drives the cruel blade deep into your side\.$
