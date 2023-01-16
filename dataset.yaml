@@ -34,5 +34,144 @@
     - A diminutive homunculus claws into your flesh with dirty nails. The surrounding flesh begins to swell with fluid.
     - A diminutive homunculus resembling a goblin claws into your flesh with clean nails. The surrounding flesh begins to swell with fluid.
     - A diminutive homunculus resembling a rat claws into your flesh with dirty nails. The surrounding flesh begins to shrink with fluid.
-
-
+- regex: ^A diminutive homunculus resembling (\w+) obediently falls into line behind you\.$
+  matching:
+    - A diminutive homunculus resembling Sarah obediently falls into line behind you.
+    - A diminutive homunculus resembling James obediently falls into line behind you.
+    - A diminutive homunculus resembling you obediently falls into line behind you.
+  non-matching:
+    - A diminutive homunculus falls into line behind you.
+    - A diminutive homunculus resembling a goblin falls into line behind you disobediently.
+    - A diminutive homunculus resembling a rat falls into line behind you, but does not look obedient.
+- regex: ^A diminutive homunculus resembling (\w+) stares intendedly at you, its eyes flashing a deep blue\. A strange feeling spreads through your body as your melancholic and sanguine humours become corrupted\.$
+  matching:
+    - A diminutive homunculus resembling goblin stares intendedly at you, its eyes flashing a deep blue. A strange feeling spreads through your body as your melancholic and sanguine humours become corrupted.
+  non-matching:
+    - A diminutive homunculus resembling a goblin stares at you, its eyes flashing a deep blue. A strange feeling spreads through your body as your melancholic and sanguine humours become corrupted.
+    - A diminutive homunculus resembling a rat stares intendedly at you, its eyes flashing a green. A strange feeling spreads through your body as your melancholic and sanguine humours become corrupted.
+    - A diminutive homunculus resembling a toad stares intendedly at you, its eyes flashing a deep blue. A strange feeling spreads through your body as your melancholic and choleric humours become corrupted.
+    - A diminutive homunculus resembling a goblin claws into your flesh with dirty nails. The surrounding flesh begins to swell with fluid.
+    - A diminutive homunculus resembling a goblin obediently falls into line behind you.
+- regex: ^A diminutive homunculus resembling (\w+) turns its head towards you, its jaws opening wider than what seems possible\. The homunculus stares intently at you and lets out an ear-piercing shriek that disrupts your thoughts\.$
+  matching:
+    - A diminutive homunculus resembling goblin turns its head towards you, its jaws opening wider than what seems possible. The homunculus stares intently at you and lets out an ear-piercing shriek that disrupts your thoughts.
+    - A diminutive homunculus resembling rat turns its head towards you, its jaws opening wider than what seems possible. The homunculus stares intently at you and lets out an ear-piercing shriek that disrupts your thoughts.
+    - A diminutive homunculus resembling toad turns its head towards you, its jaws opening wider than what seems possible. The homunculus stares intently at you and lets out an ear-piercing shriek that disrupts your thoughts.
+  non-matching:
+    - A diminutive homunculus resembling a goblin turns its head towards you, its jaws opening wider than what seems possible. The homunculus lets out an ear-piercing shriek that disrupts your thoughts.
+    - A diminutive homunculus resembling a rat turns its head towards you, its jaws opening wider than what seems possible. The homunculus stares intently at you and lets out an ear-piercing moan that disrupts your thoughts.
+    - A diminutive homunculus resembling a toad turns its head towards you, its jaws opening wider than what seems possible. The homunculus stares at you and lets out an ear-piercing shriek that disrupts your thoughts.
+- regex: ^Adjusting your footing, you unleash a horrific slash at the (?:arms|legs) of (\w+), cleaving flesh and shattering bone in a savage display of your supremecy\.$
+  matching:
+    - Adjusting your footing, you unleash a horrific slash at the legs of goblin, cleaving flesh and shattering bone in a savage display of your supremecy.
+    - Adjusting your footing, you unleash a horrific slash at the arms of rat, cleaving flesh and shattering bone in a savage display of your supremecy.
+    - Adjusting your footing, you unleash a horrific slash at the legs of imp, cleaving flesh and shattering bone in a savage display of your supremecy.
+    - Adjusting your footing, you unleash a horrific slash at the legs of orc, cleaving flesh and shattering bone in a savage display of your supremecy.
+    - Adjusting your footing, you unleash a horrific slash at the arms of demon, cleaving flesh and shattering bone in a savage display of your supremecy.
+    - Adjusting your footing, you unleash a horrific slash at the legs of dragon, cleaving flesh and shattering bone in a savage display of your supremecy.
+  non-matching:
+    - Adjusting your footing, you unleash a horrific slash at the arms of the goblin, slightly injuring it in a display of your power.
+    - Adjusting your footing, you unleash a horrific slash at the goblin, cleaving flesh and shattering bone in a savage display of your supremecy.
+    - Adjusting your footing, you unleash a horrific slash at the legs of the rat, cleaving flesh and shattering bone in a display of your supremecy.
+- regex: ^A flag emblazoned with the Owl falls from (\w+)'s person\.$
+  matching:
+    - A flag emblazoned with the Owl falls from John's person.
+    - A flag emblazoned with the Owl falls from Michael's person.
+    - A flag emblazoned with the Owl falls from Emily's person.
+  non-matching:
+    - A flag emblazoned with the Owl falls from John's bag.
+    - A flag emblazoned with the Owl is held by Michael.
+    - A flag emblazoned with the Owl is seen on Emily's flagpole.
+    - A flag emblazoned with the Tiger falls from John's person.
+    - A flag emblazoned with the Eagle falls from Michael's person.
+    - A flag emblazoned with the Wolf falls from Emily's person.
+- regex: ^A (?:giant|large) red scorpion jabs his stinger into your body and you burst into flame!$
+  matching:
+    - A giant red scorpion jabs his stinger into your body and you burst into flame!
+    - A large red scorpion jabs his stinger into your body and you burst into flame!
+  non-matching:
+    - A giant red scorpion jabs his stinger into your body and you burst into ash!
+    - A large red scorpion jabs his stinger into your body and you burst into smoke!
+    - A giant blue scorpion jabs his stinger into your body and you burst into flame!
+    - A large red scorpion jabs his stinger into your body and you burst into fire!
+- regex: ^A (?:giant|large) (?:red|yellow|black) scorpion jabs his stinger into your body and you wince in pain\.
+  matching:
+    - A giant red scorpion jabs his stinger into your body and you wince in pain.
+    - A large yellow scorpion jabs his stinger into your body and you wince in pain.
+    - A giant black scorpion jabs his stinger into your body and you wince in pain.
+  non-matching:
+    - A giant red scorpion jabs his pincer into your body and you wince in pain.
+    - A large yellow scorpion jabs his stinger into your foot and you wince in pain.
+    - A giant blue scorpion jabs his stinger into your body and you wince in pain.
+- regex: ^Agony radiates out from the point of impact as (\w+) brings the haft of (.+?) down upon your head with crushing force\.$
+  matching:
+    - Agony radiates out from the point of impact as John brings the haft of his sword down upon your head with crushing force.
+    - Agony radiates out from the point of impact as Michael brings the haft of their mace down upon your foot with crushing force.
+    - Agony radiates out from the point of impact as Emily brings the haft of her mace upon your head with crushing force.
+  non-matching:
+    - Agony radiates out from the point of impact as John brings the haft of his mace down upon your shoulder with crushing force.
+    - Agony radiates out from the point of impact as Michael brings the head of their warhammer down upon your head with crushing force.
+    - Agony radiates out from the point of impact as Emily brings the handle of her mace upon your head with crushing force.
+    - Agony radiates out from the point of impact as John brings the haft of his sword down upon your chest with crushing force.
+    - Agony radiates out from the point of impact as Emily brings the haft of her spear upon your head with crushing force.
+- regex: ^A great black cloud of buzzing humming bodies descends upon you
+  matching:
+    - A great black cloud of buzzing humming bodies descends upon you, enveloping you in a thick swarm of insects. You can feel their tiny legs and wings brushing against your skin, and the sound of their buzzing fills your ears.
+  non-matching:
+    - A great black cloud of buzzing humming ants descends upon you
+    - A great white cloud of buzzing humming bodies descends upon you
+    - A great black cloud of buzzing humming bees descends upon you
+- regex: ^A heavy burden descends upon your soul as (\w+) lays the ancient Dragoncurse upon you\.$
+  matching:
+    - A heavy burden descends upon your soul as John lays the ancient Dragoncurse upon you.
+    - A heavy burden descends upon your soul as Emily lays the ancient Dragoncurse upon you.
+  non-matching:
+    - A heavy burden descends upon your soul as John lays the ancient Phoenixcurse upon you.
+    - A heavy burden descends upon your soul as Emily lays the ancient Dragoncurse upon your foot.
+    - A heavy burden descends upon your soul as John lays the ancient Dragoncurse upon your body.
+- regex: ^A howling wind sweeps over you, its terrible power scouring flesh from bone and leaving your face a bloody ruin by the will of (\w+)\.$
+  matching:
+    - A howling wind sweeps over you, its terrible power scouring flesh from bone and leaving your face a bloody ruin by the will of Michael.
+    - A howling wind sweeps over you, its terrible power scouring flesh from bone and leaving your face a bloody ruin by the will of Sarah.
+    - A howling wind sweeps over you, its terrible power scouring flesh from bone and leaving your face a bloody ruin by the will of William.
+    - A howling wind sweeps over you, its terrible power scouring flesh from bone and leaving your face a bloody ruin by the will of Jennifer.
+  non-matching:
+    - A howling wind sweeps over you, its terrible power scouring flesh from bone and leaving your face a bloody ruin by the will of Michael, but he is not a sorcerer or a mage.
+    - A howling wind sweeps over you, its terrible power scouring flesh from bone and leaving your face a bloody ruin by the will of Sarah, but she doesn't have any magical powers.
+- regex: ^A humbug scuttles forward and springs for your throat, attaching itself there for a brief instant. Your head violently swims as you feel it bring the curse of (\w+) down upon you\.$
+  matching:
+    - A humbug scuttles forward and springs for your throat, attaching itself there for a brief instant. Your head violently swims as you feel it bring the curse of anorexia down upon you.
+    - A humbug scuttles forward and springs for your throat, attaching itself there for a brief instant. Your head violently swims as you feel it bring the curse of asthma down upon you.
+  non-matching:
+    - A humbug scuttles forward and springs for your throat, attaching itself there for a brief instant. Your head violently swims as you feel it bring the curse of the witch down upon you.
+    - A humbug scuttles forward and springs for your throat, attaching itself there for a brief instant. Your head violently swims as you feel it bring the curse of the wizard down upon you.
+    - A humbug scuttles forward and springs for your throat, attaching itself there for a brief instant. Your head violently swims as you feel it bring the curse of the necromancer down upon you.
+- regex: A large wall of stone stands here, blocking passage to the (\w+)\.
+  matching:
+    - A large wall of stone stands here, blocking passage to the west.
+    - A large wall of stone stands here, blocking passage to the east.
+    - A large wall of stone stands here, blocking passage to the north.
+  non-matching:
+    - A large wall of stone stands here, blocking passage to the south-east.
+- regex: ^A lash of energy whips out of the chaos storm to strike you, afflicting you with (\w+).$
+  matching:
+    - A lash of energy whips out of the chaos storm to strike you, afflicting you with anorexia.
+    - A lash of energy whips out of the chaos storm to strike you, afflicting you with emptiness.
+  non-matching:
+    - A lash of energy whips out of the chaos storm to strike you, afflicting you with the void.
+    - A lash of energy whips out of the ordinary storm to strike you, afflicting you with anorexia.
+- regex: ^All of (\w+)'s reflections wink out of existence!$
+  matching:
+    - All of Keneanung's reflections wink out of existence!
+    - All of Vlad's reflections wink out of existence!
+  non-matching:
+    - All of a mages's reflections wink out of existence!
+    - All of Vlad's reflections wink out of the universe!
+- regex: A look of concentration followed by a look of disgust passes across (\w+)'s face\.$
+  matching:
+    - A look of concentration followed by a look of disgust passes across Elisabeths's face.
+    - A look of concentration followed by a look of disgust passes across Wart's face.
+  non-matching:
+    - A look of concentration followed by a look of disgust passes across the ogre's face.
+    - A look of concentration followed by a look of love passes across Wart's face.
+    

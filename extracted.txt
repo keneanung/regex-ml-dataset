@@ -9,7 +9,6 @@
 ^A flag emblazoned with the Owl falls from (\w+)'s person\.$
 ^A (?:giant|large) red scorpion jabs his stinger into your body and you burst into flame!$
 ^A (?:giant|large) (?:red|yellow|black) scorpion jabs his stinger into your body and you wince in pain\.
-^A giant (?:red|yellow|black) scorpion jabs his stinger into your body and you wince in pain\.$
 ^Agony radiates out from the point of impact as (\w+) brings the haft of (.+?) down upon your head with crushing force\.$
 ^A great black cloud of buzzing humming bodies descends upon you
 ^A heavy burden descends upon your soul as (\w+) lays the ancient Dragoncurse upon you\.$
