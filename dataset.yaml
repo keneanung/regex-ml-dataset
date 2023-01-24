@@ -232,39 +232,39 @@
     - Your melancholic and sanguine humours drains some.
     - Your choleric humour drains.
     - Your sanguine humour drain some.
-- regex: ^Your command separator is now: (.+)$
+- regex: "^Your command separator is now: (.+)$"
   matching:
-    - Your command separator is now: /
-    - Your command separator is now: &
-    - Your command separator is now: |
-    - Your command separator is now: ;
+    - "Your command separator is now: /"
+    - "Your command separator is now: &"
+    - "Your command separator is now: |"
+    - "Your command separator is now: ;"
   non-matching:
-    - Your command separator is now /
-    - Your command separator is: /
-    - Your command separator is now &.
-    - Your command separation is now:
+    - "Your command separator is now /"
+    - "Your command separator is: /"
+    - "Your command separator is now &."
+    - "Your command separation is now:"
 - regex: ^"Your crimes shall not go unpunished," you recite to (\w+), voice hard with condemnation\.$
   matching:
-    - "Your crimes shall not go unpunished," you recite to Wulfen, voice hard with condemnation.
-    - "Your crimes shall not go unpunished," you recite to Clementius, voice hard with condemnation.
-    - "Your crimes shall not go unpunished," you recite to Shaitan, voice hard with condemnation.
-    - "Your crimes shall not go unpunished," you recite to Aegis, voice hard with condemnation.
+    - '"Your crimes shall not go unpunished," you recite to Wulfen, voice hard with condemnation.'
+    - '"Your crimes shall not go unpunished," you recite to Clementius, voice hard with condemnation.'
+    - '"Your crimes shall not go unpunished," you recite to Shaitan, voice hard with condemnation.'
+    - '"Your crimes shall not go unpunished," you recite to Aegis, voice hard with condemnation.'
   non-matching:
     - Your crimes shall not go unpunished, you recite to Rho, voice hard with condemnation.
-    - "Your crimes shall not go unpunished", you recite to Wulfen, voice hard with condemnation.
-    - "Your crimes shall not go unpunished," you recite to Babel, your voice hard with condemnation.
-    - "Your crime shall not go unpunished," you recite to Babel, voice hard with condemnation.
-- regex: ^Your current separator is: (.+)$
+    - '"Your crimes shall not go unpunished", you recite to Wulfen, voice hard with condemnation.'
+    - '"Your crimes shall not go unpunished," you recite to Babel, your voice hard with condemnation.'
+    - '"Your crime shall not go unpunished," you recite to Babel, voice hard with condemnation.'
+- regex: "^Your current separator is: (.+)$"
   matching:
-    - Your current separator is: /
-    - Your current separator is: &
-    - Your current separator is: |
-    - Your current separator is: ;
+    - 'Your current separator is: /'
+    - 'Your current separator is: &'
+    - 'Your current separator is: |'
+    - 'Your current separator is: ;'
   non-matching:
     - Your current separator is /
     - Your current separator is /.
-    - Your separator is: &
-    - Your current separator is:
+    - 'Your separator is: &'
+    - 'Your current separator is:'
 - regex: ^Your (.+) defence corrodes beneath its profane proximity\.$
   matching:
     - Your waterwalking defence corrodes beneath its profane proximity.
