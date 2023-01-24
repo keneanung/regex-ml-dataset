@@ -23,7 +23,7 @@ local error = false
 for index, dataEntry in ipairs(t) do
 
     if not dataEntry.regex then
-        print("missing regex...")
+        print("missing regex for entry", index)
         error = true
     else
         local regex = rex.new(dataEntry.regex)
