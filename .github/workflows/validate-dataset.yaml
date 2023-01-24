@@ -3,7 +3,7 @@ name: validate
 on: [pull_request]
 
 jobs:
-  test:
+  validate:
     runs-on: ubuntu-latest
 
     steps:
