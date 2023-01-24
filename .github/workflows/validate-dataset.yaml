@@ -13,7 +13,7 @@ jobs:
       with:
         lua-version: "5.1.5"
 
-    - uses: leafo/gh-actions-luarocks@v2
+    - uses: leafo/gh-actions-luarocks@v4
 
     - name: install dependencies
       run: |
