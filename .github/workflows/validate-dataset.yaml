@@ -1,0 +1,24 @@
+name: validate
+
+on: [pull_request]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@master
+
+    - uses: xpol/setup-lua@v0.3
+      with:
+        lua-version: "5.1.5"
+
+    - uses: leafo/gh-actions-luarocks@v4
+
+    - name: install dependencies
+      run: |
+        luarocks install lyaml
+        luarocks install lrexlib-pcre2
+    
+    - name: validate dataset yaml
+      run: lua validate_dataset.lua
