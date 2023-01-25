@@ -225,12 +225,12 @@
     ]
   },
   {
-    "regex": "*(artf|out|lit) +pipe(\\d+) +empty +(?:n/a|\\d+)",
+    "regex": " *(artf|out|lit) +pipe(\\d+) +empty +(?:n/a|\\d+)",
     "matching": [],
     "non-matching": []
   },
   {
-    "regex": "*(artf|out|lit) +pipe(\\d+) +(slippery elm|a skullcap flower|a valerian leaf|a pinch of realgar crystals|a pinch of ground cinnabar|a pinch of ground malachite) +(\\d+) +(n/a|\\d+)",
+    "regex": " *(artf|out|lit) +pipe(\\d+) +(slippery elm|a skullcap flower|a valerian leaf|a pinch of realgar crystals|a pinch of ground cinnabar|a pinch of ground malachite) +(\\d+) +(n/a|\\d+)",
     "matching": [],
     "non-matching": []
   },
