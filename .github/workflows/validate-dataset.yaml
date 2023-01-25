@@ -17,7 +17,7 @@ jobs:
 
     - name: install dependencies
       run: |
-        luarocks install lyaml
+        luarocks install lunajson
         luarocks install lrexlib-pcre2
     
     - name: validate dataset yaml
