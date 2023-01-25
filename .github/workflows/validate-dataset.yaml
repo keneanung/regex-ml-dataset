@@ -20,5 +20,5 @@ jobs:
         luarocks install lunajson
         luarocks install lrexlib-pcre2
     
-    - name: validate dataset yaml
+    - name: validate dataset json
       run: lua validate_dataset.lua
