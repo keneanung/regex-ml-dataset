@@ -1,0 +1,3971 @@
+[
+  {
+    "regex": "^A bell-like tone rings out from (\\w+)'s rapier, echoed by the sound of cracking bone as your (?:left|right) (?:arm|leg) snaps painfully\\.$",
+    "matching": [
+      "A bell-like tone rings out from John's rapier, echoed by the sound of cracking bone as your left arm snaps painfully.",
+      "A bell-like tone rings out from Sarah's rapier, echoed by the sound of cracking bone as your right leg snaps painfully.",
+      "A bell-like tone rings out from Vadimuses's rapier, echoed by the sound of cracking bone as your right arm snaps painfully.",
+      "A bell-like tone rings out from Wulfen's rapier, echoed by the sound of cracking bone as your left leg snaps painfully."
+    ],
+    "non-matching": [
+      "A bell-like tone rings out from the guard's rapier, echoed by the sound of cracking bone as your left arm snaps painfully.",
+      "A bell-like tone rings out from John's sword, echoed by the sound of cracking bone as your left arm snaps painfully.",
+      "A bell-like tone rings out from the guard's rapier, echoed by the sound of cracking bone as your left leg snaps painfully.",
+      "The bell-like tone rings out from John's rapier, echoed by the sound of cracking bone as your left arm snaps painfully."
+    ]
+  },
+  {
+    "regex": "^A bloodleech leaps at you, clamping with teeth onto exposed flesh and secreting some foul toxin into your bloodstream. You stumble as you are afflicted with (\\w+)\\.$",
+    "matching": [
+      "A bloodleech leaps at you, clamping with teeth onto exposed flesh and secreting some foul toxin into your bloodstream. You stumble as you are afflicted with nausea.",
+      "A bloodleech leaps at you, clamping with teeth onto exposed flesh and secreting some foul toxin into your bloodstream. You stumble as you are afflicted with dizziness.",
+      "A bloodleech leaps at you, clamping with teeth onto exposed flesh and secreting some foul toxin into your bloodstream. You stumble as you are afflicted with weakness.",
+      "A bloodleech leaps at you, clamping with teeth onto exposed flesh and secreting some foul toxin into your bloodstream. You stumble as you are afflicted with Nausea."
+    ],
+    "non-matching": [
+      "A bloodleech leaps at you, clamping with teeth onto exposed flesh and secreting some foul toxin into your bloodstream. You are afflicted with nausea.",
+      "A bloodleech leaps at you, clamping with teeth onto exposed flesh and secreting some foul toxin into your bloodstream. You stumble as you are afflicted with nausea and dizziness.",
+      "A bloodleech leaps at you, clamping with teeth onto exposed flesh and secreting some foul toxins into your bloodstream. You stumble as you are afflicted with dizziness.",
+      "A bloodleech leaps at you, clamping with teeth onto exposed flesh and secreting some foul toxin into your bloodstream. You stumble as you are afflicted."
+    ]
+  },
+  {
+    "regex": "^A low growl echoes from a diminutive homunculus resembling (\\w+)'s throat, and blood begins flowing from your nose\\.$",
+    "matching": [
+      "A low growl echoes from a diminutive homunculus resembling Vadimuses's throat, and blood begins flowing from your nose.",
+      "A low growl echoes from a diminutive homunculus resembling Sally's throat, and blood begins flowing from your nose.",
+      "A low growl echoes from a diminutive homunculus resembling Harry's throat, and blood begins flowing from your nose.",
+      "A low growl echoes from a diminutive homunculus resembling Herenicus's throat, and blood begins flowing from your nose."
+    ],
+    "non-matching": []
+  },
+  {
+    "regex": "^A mighty, bestial roar from (\\w+) sends you from your feet with its sheer force\\.$",
+    "matching": [
+      "A mighty, bestial roar from Manu sends you from your feet with its sheer force.",
+      "A mighty, bestial roar from Penwize sends you from your feet with its sheer force.",
+      "A mighty, bestial roar from Danith sends you from your feet with its sheer force.",
+      "A mighty, bestial roar from Katia sends you from your feet with its sheer force."
+    ],
+    "non-matching": []
+  },
+  {
+    "regex": "^An? (.+) comes speeding in from the (\\w+) towards your (.+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^\"And face your penance!\" you denounce (\\w+)\\.$",
+    "matching": [
+      "\"And face your penance!\" you denounce Vadimuses.",
+      "\"And face your penance!\" you denounce Tenebrus.",
+      "\"And face your penance!\" you denounce Kirrh.",
+      "\"And face your penance!\" you denounce them."
+    ],
+    "non-matching": []
+  },
+  {
+    "regex": "^\"And may the cleansing fires consume you!\" you dictate to (w\\+), holy flame wreathing (\\w+) in cleansing fury\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^\"And see that which Evil reaps!\" you recite to (\\w+)\\.$",
+    "matching": [
+      "\"And see that which Evil reaps!\" you recite to Wulfen.",
+      "\"And see that which Evil reaps!\" you recite to him.",
+      "\"And see that which Evil reaps!\" you recite to them.",
+      "\"And see that which Evil reaps!\" you recite to Herenicus."
+    ],
+    "non-matching": [
+      "\"And see that which evil reaps!\" you recite to them.",
+      "\"And see that which Evil reaps!\" You recite to him.",
+      "\"And see that which Evil reaps,\" you recite to him.",
+      "\"And see that which Evil reaps!\" you recite."
+    ]
+  },
+  {
+    "regex": "^\"And sheltered by His duty,\" you murmur, laying a hand upon the brow of (\\w+)\\.$",
+    "matching": [
+      "\"And sheltered by His duty,\" you murmur, laying a hand upon the brow of Aegis.",
+      "\"And sheltered by His duty,\" you murmur, laying a hand upon the brow of them.",
+      "\"And sheltered by His duty,\" you murmur, laying a hand upon the brow of him.",
+      "\"And sheltered by His duty,\" you murmur, laying a hand upon the brow of Matsuhama."
+    ],
+    "non-matching": [
+      "\"And sheltered by his duty,\" you murmur, laying a hand upon the brow of Wulfen.",
+      "\"And sheltered by His duty,\" you murmur and lay a hand upon the brow him.",
+      "\"And sheltered by His duty,\" you murmur, laying a hand on the brow of Vadimuses.",
+      "\"And sheltered by His duty.\" you murmur, laying a hand upon the brow of Aila."
+    ]
+  },
+  {
+    "regex": "^\"And thus I deem you unfit for Creation!\" you proclaim, pointing imperiously at (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^\"And your guilt will be made plain,\" you proselytise to (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^\"And you shall be naught but cinders,\" you decree, focussing your holy might upon (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Angel(\\d+) +(\\w+) +(\\d+)$",
+    "matching": [
+      "Angel585719 guardian 9",
+      "Angel578573 angel 10",
+      "Angel104848 guardianangel 1",
+      "Angel1048 angel 58"
+    ],
+    "non-matching": [
+      "angel578573 angel 10",
+      "Angel5858 guardian angel 1",
+      "Angel5758 guardianangel A",
+      "Angel5759 angelA"
+    ]
+  },
+  {
+    "regex": "^An ice hellion raises her staff and points it at you, sending a bolt of ice to freeze you in place\\.$",
+    "matching": [
+      "An ice hellion raises her staff and points it at you, sending a bolt of ice to freeze you in place.",
+      "An ice hellion raises her staff and points it at you, sending a bolt of ice to freeze you in place.",
+      "An ice hellion raises her staff and points it at you, sending a bolt of ice to freeze you in place.",
+      "An ice hellion raises her staff and points it at you, sending a bolt of ice to freeze you in place."
+    ],
+    "non-matching": [
+      "An ice wizard raises his staff and points it at you, sending a bolt of ice to freeze you in place.",
+      "An ice wizard raises their staff and points it at you, sending a bolt of ice to freeze you in place.",
+      "An ice hellion raises her staff and points it at Kirrh, sending a bolt of ice to freeze her in place.",
+      "An ice hellion raises her staff and points it at Manu, sending a bolt of ice to freeze them in place."
+    ]
+  },
+  {
+    "regex": "An icewall is here, blocking passage to the (\\w+)\\.",
+    "matching": [
+      "An icewall is here, blocking passage to the north.",
+      "An icewall is here, blocking passage to the west.",
+      "You look to the west. An icewall is here, blocking passage to the east.",
+      "You glance west: An icewall is here, blocking passage to the east."
+    ],
+    "non-matching": [
+      "An icewall is here, blocking passage west.",
+      "An icewall is here: blocking passage west.",
+      "An icewall is here, blocking passage to the west and east.",
+      "A icewall is here, blocking passage to the west."
+    ]
+  },
+  {
+    "regex": "^An ominous feeling descends upon you as (\\w+) turns (\\w+) gaze upon you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^An? (\\w+) tattoo fades from view and disappears\\.$",
+    "matching": [
+      "An owl tattoo fades from view and disappears.",
+      "An ox tattoo fades from view and disappears.",
+      "A moon tattoo fades from view and disappears.",
+      "A boar tattoo fades from view and disappears."
+    ],
+    "non-matching": [
+      "An owl tattoo fades from view.",
+      "A moon tattoo fades from view.",
+      "An ox tatoo fades from view and disappears.",
+      "A boar and ox tattoo fades from view and disappears."
+    ]
+  },
+  {
+    "regex": "^([A\\*][ \\*][p\\*][r\\*][i\\*][c\\*][k\\*][l\\*][y\\*][ \\*][s\\*][t\\*][i\\*][n\\*][g\\*][i\\*][n\\*][g\\*][ \\*][o\\*][v\\*][e\\*][r\\*][c\\*][o\\*][m\\*][e\\*][s*][ \\*][y\\*][o\\*][u\\*][r\\*][ \\*][b\\*][o\\*][d\\*][y\\*][,\\*][ \\*][f\\*][a\\*][d\\*][i\\*][n\\*][g\\*][ \\*][a\\*][w\\*][a\\*][y\\*][ \\*][i\\*][n\\*][t\\*][o\\*][ \\*][n\\*][u\\*][m\\*][b\\*][n\\*][e\\*][s\\*][s\\*][.\\*])$",
+    "matching": [
+      "A prickly stinging overcomes your body, fading away into numbness.",
+      "A prickly stinging o**rcomes your*bod*, fading a*ay into numbness.",
+      "A pr*ckly sti**ing over*omes you* body, fading away into n*mbness.",
+      "A prickl* stingi** overco*es your bo*y, fad*ng away *nto numbnes*."
+    ],
+    "non-matching": [
+      "A prickly, stinging sensation overcomes to your body, fading away into numbness.",
+      "A prickly stinging sensation overcomes your body, fading away into numbness.",
+      "Prickly stinging overcomes your body, then fades away into numbness.",
+      "A prickly sting overcomes your body, fading away into numbness."
+    ]
+  },
+  {
+    "regex": "^A red scorpion jabs his stinger into your body and you burst into flame!$",
+    "matching": [
+      "A red scorpion jabs his stinger into your body and you burst into flame!",
+      "A red scorpion jabs his stinger into your body and you burst into flame!",
+      "A red scorpion jabs his stinger into your body and you burst into flame!",
+      "A red scorpion jabs his stinger into your body and you burst into flame!"
+    ],
+    "non-matching": [
+      "A blue scorpion jabs his stinger into your body and you burst into flame!",
+      "A red scorpion jabs its stinger into your body and you burst into flame!",
+      "A red scorpion jabs a stinger into your body and you burst into flame!",
+      "A red scorpion jabs his stinger into your body and you burst into flame."
+    ]
+  },
+  {
+    "regex": "^A (?:red|yellow|black) scorpion jabs his stinger into your body and you wince in pain\\.$",
+    "matching": [
+      "A red scorpion jabs his stinger into your body and you wince in pain.",
+      "A yellow scorpion jabs his stinger into your body and you wince in pain.",
+      "A black scorpion jabs his stinger into your body and you wince in pain.",
+      "A black scorpion jabs his stinger into your body and you wince in pain."
+    ],
+    "non-matching": [
+      "A blue scorpion jabs his stinger into your body and you wince in pain.",
+      "A scorpion jabs his stinger into your body and you wince in pain.",
+      "A red scorpion jabs its stinger into your body and you wince in pain.",
+      "A yellow scorpion jabs a stinger into your body and you wince in pain."
+    ]
+  },
+  {
+    "regex": "*(artf|out|lit) +pipe(\\d+) +empty +(?:n/a|\\d+)",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "*(artf|out|lit) +pipe(\\d+) +(slippery elm|a skullcap flower|a valerian leaf|a pinch of realgar crystals|a pinch of ground cinnabar|a pinch of ground malachite) +(\\d+) +(n/a|\\d+)",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^As a particularly noticeable ripple crosses the surface of (\\w+)'s form, you feel sweat break out across your entire body, coating your skin in a slick substance\\.$",
+    "matching": [
+      "As a particularly noticeable ripple crosses the surface of Danith's form, you feel sweat break out across your entire body, coating your skin in a slick substance.",
+      "As a particularly noticeable ripple crosses the surface of Wong's form, you feel sweat break out across your entire body, coating your skin in a slick substance.",
+      "As a particularly noticeable ripple crosses the surface of Gondus's form, you feel sweat break out across your entire body, coating your skin in a slick substance.",
+      "As a particularly noticeable ripple crosses the surface of Maya's form, you feel sweat break out across your entire body, coating your skin in a slick substance."
+    ],
+    "non-matching": [
+      "As a particularly noticeable ripple crosses the surface of a guard's form, you feel sweat break out across your entire body, coating your skin in a slick substance.",
+      "As a particularly noticeable ripple crosses the surface of Gondus, you feel sweat break out across your entire body, coating your skin in a slick substance.",
+      "As a particularly noticeable ripple crosses the surface of Gondus's form, you feel sweat break out across his entire body, coating his skin in a slick substance.",
+      "As a particularly noticeable ripple crosses the surface of Maya's form, you see sweat break out across her entire body, coating her skin in a slick substance."
+    ]
+  },
+  {
+    "regex": "A scorching wall of fire stands here, blocking passage to the (\\w+)\\.",
+    "matching": [
+      "A scorching wall of fire stands here, blocking passage to the east.",
+      "A scorching wall of fire stands here, blocking passage to the west.",
+      "Look out! A scorching wall of fire stands here, blocking passage to the north.",
+      "Uh oh! A scorching wall of fire stands here, blocking passage to the south."
+    ],
+    "non-matching": [
+      "To the west, a scorching wall of fire stands, blocking passage to the west.",
+      "A scorching wall of fire stands to the east, blocking passage.",
+      "A scorching wall of fire is here, blocking passage to the north.",
+      "A scorching wall of fire is north, blocking passage."
+    ]
+  },
+  {
+    "regex": "^As (?:Gattan'lier's hunger|an insubstantial dagger) begins to pulse with a sinister glow, (\\w+) begins to close in on you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^A sharp pain across your throat and a sudden lack of breath comes moments before you register theretreat of (\\w+)\\, bloody dagger in hand\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^A shimmering image of the face of (\\w+) appears fleetingly before you, frowning in concentration\\.$",
+    "matching": [
+      "A shimmering image of the face of Sobriquet appears fleetingly before you, frowning in concentration.",
+      "A shimmering image of the face of Elene appears fleetingly before you, frowning in concentration.",
+      "A shimmering image of the face of Cain appears fleetingly before you, frowning in concentration.",
+      "A shimmering image of the face of Vadimuses appears fleetingly before you, frowning in concentration."
+    ],
+    "non-matching": [
+      "An image of the face of Sobriquet appears fleetingly before you, frowning in concentration.",
+      "A shimmering image of Sobriquet appears fleetingly before you, frowning in concentration.",
+      "A shimmering image of Sobriquet's face appears fleetingly before you, frowning in concentration.",
+      "A shimmering image of the face of Sobriquet appears fleetingly before you."
+    ]
+  },
+  {
+    "regex": "^A shiver of panic runs down your spine as the horror of a decaying zombie's existence strikes you\\.$",
+    "matching": [
+      "A shiver of panic runs down your spine as the horror of a decaying zombie's existence strikes you.",
+      "A shiver of panic runs down your spine as the horror of a decaying zombie's existence strikes you.",
+      "A shiver of panic runs down your spine as the horror of a decaying zombie's existence strikes you.",
+      "A shiver of panic runs down your spine as the horror of a decaying zombie's existence strikes you."
+    ],
+    "non-matching": [
+      "A shiver of panic runs down your spine, as the horror of a decaying zombie's existence strikes you.",
+      "Panic runs down your spine as the horror of a decaying zombie's existence strikes you.",
+      "The horror of a decaying zombie's existence strikes you, sending a shiver of panic down your spine.",
+      "Shivers of panic run down your spine as the horror of a decaying zombie's existence strikes you."
+    ]
+  },
+  {
+    "regex": "^A short convulsion sweeps through your body as (\\w+) wracks your (\\w+) and (\\w+) humours\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^A short convulsion sweeps through your body as (\\w+) wracks your (\\w+) humour\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^A small brown lemming rips apart your (.+) with its claws\\.$",
+    "matching": [
+      "A small brown lemming rips apart your right arm with its claws.",
+      "A small brown lemming rips apart your left and right arm with its claws.",
+      "A small brown lemming rips apart your head with its claws.",
+      "A small brown lemming rips apart your torso with its claws."
+    ],
+    "non-matching": [
+      "A small, brown lemming rips apart your torso with its claws.",
+      "A small brown wolverine rips apart your torso with its claws.",
+      "A small brown lemming rips your right arm with its claws.",
+      "A small brown lemming rips apart your right arm."
+    ]
+  },
+  {
+    "regex": "^A snaking stream of ice from (\\w+)'s maw forks into the room, blasting into you mercilessly\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^A snaking stream of lightning from (\\w+)'s maw forks into the room, blasting into you mercilessly\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^As the dark intent of (\\w+) falls upon you\\, you feel the air surrounding you begin to thrum with tension\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^As the force subsides, you struggle to shake the smirking visage of (\\w+) from your mind\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^As the righteous words of (\\w+) build towards an ominous conclusion a light begins to shine upon you, its merciless glare a herald of danger\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^As the (\\w+) light shining from you grows to an intensity that threatens to blind lesser beings, the mighty Dragon quickly subsumes your physical form, and raw power floods your mind\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^A sudden deluge of shockingly cold water drenches you, robbing you of strength by the will of (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^A sudden sense of panic overtakes you as the draconic curse manifests, afflicting you with (impatience|paralysis|sensitivity|asthma)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^As (\\w+) draws (\\w+) (\\w+) from its scabbard, (\\w+) drives the pommel into your chin\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^As (\\w+) gestures toward you, lines of sharp pain slash across your skin\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^As (\\w+) shifts the blade transfixing your gut, the loathsome kiss of metal ravages your insides\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^As (\\w+) strikes you, you stumble back from the searing heat, tripping to the ground\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^\"As you fall before the weapons of Their faithful,\" you intone, readying yourself for a crushing blow against (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^As your gaze falls upon the depiction, an insatiable lust for the glorious (\\w+) comes over you.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^A terrible flash and an instant of soul-searing agony heralds the conclusion of (\\w+)'s prayer, the merciless glare transforming to a cataclysmic blast of effulgent fury\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(.+) attempts to transfix you, but succeeds only in curing your blindness\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^\"Attend me,\" you intone to (\\w+)\\.$",
+    "matching": [
+      "\"Attend me,\" you intone to Pandora.",
+      "\"Attend me,\" you intone to Maya.",
+      "\"Attend me,\" you intone to Clementius.",
+      "\"Attend me,\" you intone to Neraeos."
+    ],
+    "non-matching": [
+      "\"Attend me.\" you intone to Pandora.",
+      "\"Attend me,\" you say to Maya.",
+      "\"Attend me!\" you say to Clementius.",
+      "\"Attend me\" you intone to Neraeos."
+    ]
+  },
+  {
+    "regex": "^A viper-like sleizak rune suddenly extends from (?:the ground|a totem) to bite you painfully\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^A \\w+ zombie lunges forward and bites into your shoulder with his rotten teeth\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "\"[A-Z][a-z]\\.\\.\\.[a-z]\\.\\.\\.\\.[a-z]{3}\\.\\.\\.[a-z]{2}\\.\\.\\.\\.\\.\"$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(?:[A-Za-z]+\\b,? *){2,} tells you, \"That looks good\\. I'll be in touch\\.\"",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "(.*) ([a-zA-Z@]*)(?:\\<.*\\>)?(?: Vote)?-",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^([A-Z].+) stands a tarot on (\\w+) open palm, and blows it lightly at you\\. Suddenly your movement through the time stream is slowed\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Before you can avoid it, (\\w+)'s hand brushes against your arm and it withers away\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "\\b(?:(?:(?:[Hh]ttps?|ftp|telnet)://[\\w\\d:#@%/;$()~_?\\+\\-=&]+|www|ftp)(?:\\.[\\w\\d:#@%/;$()~_?\\+\\-=&]+)+|[\\w\\d._%+\\-]+@[\\w\\d.\\-]+\\.[\\w]{2,4})\\b",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^bleeding for (\\d+) health\\.$",
+    "matching": [
+      "bleeding for 100 health.",
+      "bleeding for 1500 health.",
+      "bleeding for 20 health.",
+      "bleeding for 1 health."
+    ],
+    "non-matching": [
+      "bleeding for no health.",
+      "bleeding for 100 health",
+      "bleeding: 100 health",
+      "bleeding: 100 health."
+    ]
+  },
+  {
+    "regex": "^Blue light crackles forth from (\\w+)'s palms, striking you down and snapping your puny limbs\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Bracing your feet, you launch a devastating slash at the arms of (\\w+), delivering a glancing blow\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Bracing your feet, you launch a devastating slash at the legs of (\\w+), delivering a glancing blow\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Bracing your feet, you lunge upward at (\\w+) with",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^\"Burn, blight upon Creation!\" you dictate to (\\w+), holy flame wreathing (\\w+) in cleansing fury\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^\"Burn!\" you command (\\w+), fire leaping forth to sear (\\w+)\\.",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Channeling your focus through your link to your homunculus, you reach out to find the ethereal hook for (\\w+)'s humours\\. Finding it, you use the alien connection with a diminutive homunculus resembling (\\w+) to corrupt (\\w+) humours\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Cloaked in a shifting mantle of molten stone\\, ([\\w'\\-]+) charges in from the (.*) with a deafening roar\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Cold blue flames wreathe (\\w+)'s runeblade, emanating an icy chill that penetrates you to the bone\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^\\| +CommandSeparator +(.+)? +ShowSelfClasswho",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Composing a few clever lines in your head, you quickly sing a jaunty limerick at (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Composing a few clever lines in your head, you quickly sing a jaunty limerick at (\\w+), who seems to pay no notice\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Confidence drains from you, replaced by fear, as (\\w+) weaves a counterpoint between instrument and voice aimed at you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "crunches into the side of your head, stunning you!$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^\\[Curing\\]: ([A-Z ]+)$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "\\| +(\\d+)",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\d+)",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "\\[ *(\\d+) *\\] ([^\\[$]+)",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^-(\\d+)-$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Directing your voice so only (\\S+) may hear, you command (\\w+) to serve\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Drawing an enormous breath, (\\w+) exhales, expelling a gale of wind with such force that you are knocked over\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Drawing back (.+?), you unleash a flesh-mincing blow at",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Drawing (\\w+) up to (\\w+) full height, (\\w+) throws (\\w+) arms wide\\. The clouds above roil, then bolt after bolt of incandescent lightning falls upon you\\. The world becomes nothing but light and pain\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Ducking behind you, (\\w+) strikes at your hamstring with a rigid grip\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Enter NSUMMARY (.+?) to continue\\.$",
+    "matching": [
+      "Enter NSUMMARY EVENTS to continue.",
+      "Enter NSUMMARY 1500 to continue.",
+      "Enter NSUMMARY ANNOUNCE 1550 to continue.",
+      "Enter NSUMMARY ANNOUNCE NEWS to continue."
+    ],
+    "non-matching": [
+      "Enter NSUMMARY to continue.",
+      "Enter NEWS SUMMARY to continue.",
+      "Enter NSUMMARY EVENTS.",
+      "Enter NSUMMARY 1500 to continue"
+    ]
+  },
+  {
+    "regex": "^Fists clenched, (\\w+) focuses on you with a deadly look in (\\w+) eyes\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Fixing your gaze upon (.+), you intone, \"Laiad\"\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Focusing your mind on a diminutive homunculus resembling (\\w+), you command it to disrupt (\\w+)'s focus\\. The homunculus turns towards (\\w+) before letting out an ear-piercing shriek\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^\"For justice shall not be averted,\" you declare, as you prepare for your clash with (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^\"For we shall not falter,\" you murmur, laying a hand upon the brow of (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Frozen by fear, you can do naught but watch, wide-eyed with terror, as (\\w+)'s blazing sphere streaks towards you and slams into your body, burning you horribly\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Golden chains of light coalesce in the hands of (\\w+), and (\\w+) casts them out to bind you to (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Grabbing your arm in (\\w+) vice-like hands, an iron malagma snaps the bone in two\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^High above, (\\w+) opens (\\w+) glistening, tooth-lined maw wide and rains a great tempest of ice down upon you, from which there is no escape or reprieve\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^High above, (\\w+) opens (\\w+) glistening, tooth-lined maw wide and rains a great tempest of lightning down upon you, from which there is no escape or reprieve\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Holding your head up, (\\w+) snaps (\\w+) wrist, sending (\\w+) whip to wrap around your neck\\. (\\w+) casually places (\\w+) foot upon the small of your back and jerks the whip viciously backwards so that it bites deeply into your throat\\. Blood streams down from your shattered windpipe as you gasp uselessly for air\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Horrifying visions overcome you as (\\w+) turns (\\w+) righteous gaze upon you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^\"Hunt!\" (\\w+) orders (\\w+) daegger\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Icy vapour escapes from (\\w+)'s clenched fist as (\\w+) aims a blow towards you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^\"I deem you unfit for Creation!\" you proclaim, pointing imperiously at (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Imbuing your voice with power, you intone, \"(\\S+)\"\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^In a single motion, (\\w+) draws (\\w+) (\\w+) from its scabbard and looses a vicious (?:rising|falling) slash at your (torso|head)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^In a single motion, (\\w+) draws (\\w+) (\\w+) from its scabbard and looses a vicious rising slash at your (.+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^In a single, sinuous motion, (\\w+) manoeuvres (\\w+) imposing form to encircle (\\w+)'s feet, fixing (\\w+) with a penetrating gaze as (\\w+) tremendous jaws open wide\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^In a single, sinuous motion, (\\w+) manoeuvres (\\w+) imposing form to encircle your feet, fixing you with a penetrating gaze as (\\w+) tremendous jaws open wide\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^In one quick motion, Westriv Talkar leans down and severs your hamstring\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Invoking the power that the line of Sycaerunax grants you, you will forth the Dragon within, and a (\\w+) light begins to emanate from your very soul\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "([^\\.]+) is here(?:\\.|, sleeping soundly\\.|, shrouded\\.) (\\w+) is surrounded by a glowing white nimbus\\.",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Its talons shred the (.+?) defence of yourself\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) inhales deeply, then lets out an earth-shaking roar as a jet of white-hot fire shoots from (\\w+) nostrils directly at you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^\"Know the pain which you have caused,\" you proselytise to (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Leaping forwards with lightning speed, (\\w+) strikes you in the chest with a single, powerful blow\\. Its rhythm interrupted by (\\w+) precise attack, your heartbeat begins to fluctuate erratically, a painful pressure building in your arteries\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Lightning-quick, (\\w+) jabs you",
+    "matching": [
+      "Lightning-quick, Wulfen jabs you with a sword.",
+      "Lightning-quick, Wulfen jabs you with the point of his rapier.",
+      "Lightning quick, Wulfen jabs you with his weapon.",
+      "Lightning-quick, Wulfen jabs you."
+    ],
+    "non-matching": [
+      "Lightning-quick, Rho Evensong jabs you with a sword.",
+      "Lightning-quick Wulfen jabs you with a sword.",
+      "Lightning-quick, Wulfen jabs Tenebrus.",
+      "Lightning-quick, Wulfen jabs your right arm."
+    ]
+  },
+  {
+    "regex": "^Lightning-quick, (\\w+) (?:stabs|jabs) your (.+) with",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Locking the image of (\\S+) in your minds eye, you utter, \"[Hh]iemeth\"\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Lunging forward with one palm outstretched, (\\w+) aims a blow at your heart\\. A warm pulse accompanies (\\w+) attack, leaving a dull ache in your chest\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Magma ceases to bubble up from beneath the outer strata of ([\\w'\\-]+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Magma erupts from the cracks between the plates covering ([\\w'\\-]+)\\, cloaking ([\\w'\\-]+) in a churning shroud of molten stone\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^\"May your body reflect your faith,\" you intone, readying yourself for a crushing blow against (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^\"May you yet feel the pain you so inflict\\.\" you recite to (\\w+), your holy protections surging around you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^More a physical blow than a simple sound, the shocking thunderclap summoned forth by (\\w+) leaves you reeling\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Moving with unpredictable grace, (\\w+) sends a dancing blow towards you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "\\[ (.+) NEWS SUMMARY \\]",
+    "matching": [
+      "[ EVENTS NEWS SUMMARY ]",
+      "[ ANNOUNCE NEWS SUMMARY ]",
+      "[ POLITICS NEWS SUMMARY ]",
+      "[ PUBLIC NEWS SUMMARY ]"
+    ],
+    "non-matching": [
+      "[LEADERS NEWS SUMMARY]",
+      "[ANNOUNCE NEWS SUMMARY ]",
+      "[ PUBLIC NEWS SUMMARY]",
+      "EVENTS NEWS SUMMARY"
+    ]
+  },
+  {
+    "regex": "^Opening (\\w+) great maw, (\\w+) envelopes you with a glacial plume of freezing air\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Opening (\\w+) massive maw, (\\w+) throws (\\w+) head forward and blasts wave after wave of deadly, all-consuming cold at you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Pain wracks your soul as you begin your new life\\. As the new body forms, you realise you now have (.+?) and (.+?), and you are covered with (.+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^p? +(\\d+)",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "pipe(\\d+) +a black diamond pipe",
+    "matching": [
+      "pipe584 a black diamond pipe",
+      "pipe584      a black diamond pipe",
+      "pipe4 a black diamond pipe",
+      "pipe585950585 a black diamond pipe"
+    ],
+    "non-matching": [
+      "pipe a black diamond pipe",
+      "pipe48: a black diamond pipe",
+      "pipes a black diamond pipe",
+      "pipeA5 a black diamond pipe"
+    ]
+  },
+  {
+    "regex": "^\"Protected from the ravages of the Outer Cold,\" you murmur, laying a hand upon the brow of (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Raising (.+?) above your head, you bring it down upon",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Raising a shining metallic hand, (.+) points at you and mouths something. Every nerve in your body springs to life and begins to smoulder under your skin\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Readying (?:Gattan'lier's hunger|an insubstantial dagger), (\\w+) begins to prowl towards you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^\"Repent for your crimes!\" you denounce (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^\"Return to ash,\" you decree, focussing your holy might upon (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Searing pain tears through your midsection as you wrench away from (\\w+), (\\w+) weapon ripping unceremoniously through your innards\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Seven rays of different coloured light spring out from (\\w+)'s outstretched hands, irradiating the location with blinding strobes\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^\"Sheltered by His duty,\" you murmur, laying a hand upon the brow of (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^So convincing is (\\w+)'s requiem for historical Seleucar that paranoia of the future sets in\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^\"So listen well,\" you intone to (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Spinning to the (left|right) as (\\w+) draws (\\w+) (\\w+) from its sheath, (\\w+) delivers a precise slash across your arms\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Stars explode in front of your eyes as (\\w+) brings the flat of (.+?) down on top of your head\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Stars explode in front of your eyes as (\\w+) smashes a translucent mace into the side of your head\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Starting with the characteristic Jaziran trill, you sing a qasida of asceticism to (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Starting with the characteristic Jaziran trill, you sing a qasida of asceticism to (\\w+), who seems undaunted\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Sticky strands of webbing spray out from (\\w+) to cover you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Striking like a snake, (\\w+) follows the first attack with another\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^suffering from (\\d+) cracked ribs\\.$",
+    "matching": [
+      "suffering from 0 cracked ribs.",
+      "suffering from 10 cracked ribs.",
+      "suffering from 5 cracked ribs.",
+      "suffering from 3 cracked ribs."
+    ],
+    "non-matching": [
+      "suffering from a cracked rib.",
+      "suffering from: 2 cracked ribs.",
+      "suffering from 2 cracked ribs",
+      "Suffering from 0 cracked ribs."
+    ]
+  },
+  {
+    "regex": "^suffering from (\\d+) skull fractures\\.$",
+    "matching": [
+      "suffering from 0 skull fractures.",
+      "suffering from 10 skull fractures.",
+      "suffering from 5 skull fractures.",
+      "suffering from 3 skull fractures."
+    ],
+    "non-matching": [
+      "suffering from a skull fracture.",
+      "suffering from: 2 skull fractures.",
+      "suffering from 3 skull fractures",
+      "Suffering from 0 skull fractures."
+    ]
+  },
+  {
+    "regex": "^suffering from (\\d+) torn tendons\\.$",
+    "matching": [
+      "suffering from 2 torn tendons.",
+      "suffering from 3 torn tendons.",
+      "suffering from 0 torn tendons.",
+      "suffering from 3 torn tendons."
+    ],
+    "non-matching": [
+      "suffering from a torn tendon.",
+      "suffering from no torn tendons.",
+      "suffering from: 3 torn tendons.",
+      "suffering from 3 torn tendons"
+    ]
+  },
+  {
+    "regex": "^suffering from (\\d+) wrist fractures\\.$",
+    "matching": [
+      "suffering from 5 wrist fractures.",
+      "suffering from 1 wrist fractures.",
+      "suffering from 0 wrist fractures.",
+      "suffering from 2 wrist fractures."
+    ],
+    "non-matching": [
+      "suffering from: 2 wrist fractures.",
+      "suffering from 3 wrist fractures",
+      "Suffering from 2 wrist fractures.",
+      "Suffering from: 1 wrist fracture."
+    ]
+  },
+  {
+    "regex": "^Sweat breaking out on the forehead of (\\w+) is your only warning before a bolt of lightning leaps down from on high, slamming into you and electrifying every nerve in a synchronised wave of agony\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Sweltering heat hazes the air as (\\w+) lashes at you with a blazing fist\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^\\[System\\]: Running queued (?:balance|equilibrium|eqbal|class) command: (.+)$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Taking hold of (.+?) with a firm two-handed grip, you hew savagely at",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Terrible pain radiates from the weapon impaling you as (\\w+) gives it a violent twist\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The amorphous form of (\\w+) trembles for a moment, then water bursts up from the ground, rapidly flooding the location\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The amorphous form of (\\w+) trembles, some of the liquid composing it falling away from the greater whole\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The aura around (\\w+) lashes out at you\\.$",
+    "matching": [
+      "The aura around Wulfen lashes out at you.",
+      "The aura around Vadimuses lashes out at you.",
+      "The aura around Kirrh lashes out at you.",
+      "The aura around John lashes out at you."
+    ],
+    "non-matching": [
+      "The aura around a kobold lashes out at you.",
+      "The aura around John and Julie lashes out at you.",
+      "The aura around Wulfen lashes out.",
+      "The aura around Wulfen lashes out at Herenicus."
+    ]
+  },
+  {
+    "regex": "^The blade bites deeply into your (.+)\\.$",
+    "matching": [
+      "The blade bites deeply into your torso.",
+      "The blade bites deeply into your arm.",
+      "The blade bites deeply into your right leg.",
+      "The blade bites deeply into your head."
+    ],
+    "non-matching": [
+      "The blade bites deeply into your right arm and causes bruising.",
+      "The blade bites deeply into the right leg.",
+      "The blade bites deeply into the left arm.",
+      "The blade bites deeply in your torso."
+    ]
+  },
+  {
+    "regex": "^The blade of (\\w+) is a blur as he moves forward, slicing into your (.+?)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The blade on the daegger splits into a semblance of teeth as (\\w+) prepares for the final strike\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The corpse of (.+) is too small to butcher (.+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The effects of your time manipulation fade somewhat, leaving you only aged by (\\d+) years\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The element of earth shakes you to the core, breaking your (left|right) (arm|leg)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The emptiness of the void overtakes you, stripping your (.+) defence\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The etheric light around you abruptly fades, and you feel a sudden release of tension as the hissing noise ceases entirely\\. Through a rapidly closing fold in the ether, you catch a glimpse of the face of (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The eyes of (\\w+) go out of focus for a moment as (\\w+) mouth falls wide, a terrible, unearthly sound rippling forth\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The fiery outer layers of ([\\w'\\-]+) fall away\\, turning to dust as they drift to the ground\\. Though ([\\w'\\-]+) seems diminished for an instant\\, ([\\w'\\-]+) fires soon rage with fury once more\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The fire on the hands of (\\w+) jumps to you, setting you ablaze\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The flag has been UPROOTED by (\\w+)!",
+    "matching": [
+      "The flag has been UPROOTED by Wulfen!",
+      "The flag has been UPROOTED by Linus!",
+      "The flag has been UPROOTED by Vadimuses!",
+      "The flag has been UPROOTED by 100!"
+    ],
+    "non-matching": [
+      "The flag has been uprooted by Vadimuses!",
+      "The flag has been uprooted by: Vadimuses!",
+      "The flag has been UPROOTED by: someone!",
+      "The flag has been UPROOTED by Kirrh."
+    ]
+  },
+  {
+    "regex": "^The implacable gaze of (\\w+) falls upon you, the burning flames that are (\\w+) eyes flaring brilliantly\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^\"Their blades shall break upon our shields,\" you murmur, laying a hand upon the brow of (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^\"The light shall not be denied,\" you declare, as you prepare for your clash with (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The magma-wreathed form of ([\\w'\\-]+) smashes into you\\, crushing you beneath ([\\w'\\-]+) massive bulk and searing you to the bone\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The meteor, shot by (\\w+), slams into your shield, shattering it\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The meteor slams into (\\w+)'s shield, shattering it\\.$",
+    "matching": [
+      "The meteor slams into Marin's shield, shattering it.",
+      "The meteor slams into Clementius's shield, shattering it.",
+      "The meteor slams into Aegis's shield, shattering it.",
+      "The meteor slams into Vadimuses's shield, shattering it."
+    ],
+    "non-matching": [
+      "The meteor slams into Vadimuses, shattering his shield.",
+      "The meteor slams into Vadimuses, shattering him.",
+      "The meteor slams into your shield, shattering it.",
+      "The meteor slams into you, shattering your shield."
+    ]
+  },
+  {
+    "regex": "^The music of the jack-in-the-box becomes faster and more frantic and a loud voice from within yells, \"(\\w+), I'm a-cooomiiiiing!\"$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The prayer of (\\w+) builds in strength as (\\w+) fixates upon you, righteous fury evident in every word\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^the pressure surrounding you is (\\d+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "There are (\\d+) fulminations sphere here\\.",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "There are (\\d+) holocaust globes here\\.",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "There are (\\d+) monolith sigils in (\\d+) groups here\\.",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The roar washes over you, ripping apart your (.+) defence\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The rock plates covering the form of ([\\w'\\-]+) rapidly thicken\\, sharp spires of stone rapidly sprouting from them\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The songbird upon (\\w+)'s shoulder launches into a droning song\\. You feel as if the world has closed in on you after listening to (\\w+)'s repetitive isorhythm\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The songbird upon (\\w+)'s shoulder launches into a requiem for historical Seleucar so convincing that paranoia of the future sets in\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The songbird upon (\\w+)'s shoulder perfectly mimicks a complex counterpoint between instrument and voice aimed at you, and your confidence drains to be replaced by fear\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The songbird upon (\\w+)'s shoulder perfectly mimics the recitation of an epic tale of Nicator's heroism and bravery to you, holding you motionless\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The songbird upon (\\w+)'s shoulder perfectly mimics the recitation of an obscure, confusing Kamleikan haiku to you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The songbird upon (\\w+)'s shoulder sings a graceful maqam of el'Jazira at you, and you feel suddenly clumsy in comparison\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The songbird upon (\\w+)'s shoulder sings a pastorale of the fields and streams to you\\. You feel reluctant to leave the ground\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The songbird upon (\\w+)'s shoulder sings a qasida of asceticism to you, starting with the characteristic Jaziran trill\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The songbird upon (\\w+)'s shoulder sings out a poem of gluttony and decay that makes you feel ill\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The songbird upon (\\w+)'s shoulder twitters an irritating ditty at you, disrupting your mind\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The stings paralyse your (right|left) (arm|leg)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The stone fist of ([\\w'\\-]+) crunches into your (.*)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The thorny vines of the Viridian (\\w+) lash out and rip into your (.+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^The Ur'Vampire Prioska bows her head, slumping forward as if in deep thought. You feel drawn, thinned, and the world around you speeds up noticeably\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^They seize your (\\w+) (\\w+) with a bonecrunching grip!$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Thorny vines whip out from a stick(?:man|woman) and wrap around you, pricking and binding you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Thrusting at (\\w+)'s chest with a blade hand outstretched, you release an unmitigated torrent of Shin energy upon (\\w+), and (\\w+) crumples helplessly\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "toward your head\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Turning to a crystalline golem you direct him to project a disruptive tone at a (\\w+) vibration\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Turning to face (\\S+) you utter, \"Uraiad\"\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Use MSG LIST (\\d+) to see more of your message summary\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Use MSG SEARCH FROM (\\w+) (\\d+)",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Using a heavy tremolo (\\w+) brutally punishes your already shattered (left|right) leg\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Using a heavy tremolo (\\w+) crushes your (right|left) leg\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Using a heavy tremolo you brutally punish (\\w+)'s already shattered (?:left|right) leg\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Using a heavy tremolo you crush (\\w+)'s (?:left|right) leg\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Vapourous mist coalesces about (\\w+)'s form as the surroundings cool\\. Moisture in the air crystallises into tiny shards of ice, which hang, unmoving, until a gesture from (\\w+) sends them whirling upon a bitter white wind to cut into your flesh\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "(\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) aims a devastating blow with (.+) at your already injured legs\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) balls up one fist and hammerfists you\\.$",
+    "matching": [
+      "Laorir balls up one fist and hammerfists you.",
+      "Monk balls up one fist and hammerfists you.",
+      "Rho balls up one fist and hammerfists you.",
+      "Gondus balls up one fist and hammerfists you."
+    ],
+    "non-matching": [
+      "Laorir balled up one fist and hammerfists you.",
+      "Monk balls up a fist and hammerfists you.",
+      "Rho balls up one fist and punches you.",
+      "Gondus balls up one fist and hammerfists you!"
+    ]
+  },
+  {
+    "regex": "^(\\w+) begins planting a flag!$",
+    "matching": [
+      "Jayden begins planting a flag!",
+      "Wulfen begins planting a flag!",
+      "Imyrr begins planting a flag!",
+      "Proficy begins planting a flag!"
+    ],
+    "non-matching": [
+      "Jayden began planting a flag!",
+      "Wulfen begins planting a flag.",
+      "Imyrr begins planting a flag here.",
+      "begins planting a flag!"
+    ]
+  },
+  {
+    "regex": "^(\\w+) begins to bear down on you with (\\w+) whirling (.+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) begins to chant darkly and crusty green sores coat (\\w+) hands\\. (\\w+) begins to flail (\\w+) arms wildly and one of (\\w+) hands brushes your skin\\. Immediately, your (left|right) (arm|leg) and (left|right) (arm|leg) shrivel up in response\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) begins uprooting a flag\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) belts out a meaningless screech of varying pitch at you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) blows an Aeon tarot at you, destroying your speed defence\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) bows (\\w+) head and mutters something, then flings a tarot card at you\\. A set of scales appears above your head and one side of the scale quickly descends\\. You have a bad feeling about this\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) bows (\\w+) head in silent prayer\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) brings (.+?) down upon you with a brutal overhand blow\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) brings (.+) whirling about to cleave deeply into your already damaged arms\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) brings (\\w+) shield crashing down onto your sternum, stunning you!",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) calls upon (\\w+) and unleashes a forceful blow at your (.+) with (\\w+) staff\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) calls upon Whiirh and strikes you with (\\w+) staff, the power of air dispersing your aura of rebounding\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) calls upon Whiirh and strikes you with (\\w+) staff, throwing you down with a gust of wind\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) casts a hand out in your direction, an icy zephyr descending upon you to tear your fortitude away\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) casts a net of stupidity over your mind\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) casts a spell of erosion at you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) chants and the room is engulfed in flying thorns, striking you from all directions\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) chants 'GIMMEGIMME' at you and you begin to feel quite generous\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) claps (\\w+) hands and the retardation vibration is dampened\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) clasps (\\w+) hands in solemn supplication, a recital of your many sins spilling forth in a fervent prayer\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) clenches a hand into a fist, a sudden force locking closed about your throat and constricting your airflow\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) clicks (\\w+) fingers and a brilliant flash of light bursts forth, restoring your vision\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) clicks (\\w+) fingers at you and a brilliant flash of light bursts forth, transfixing you with its brilliance\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) cocks back (\\w+) arm and throws a throwing axe at your (.+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) comes around with a terrible swing of (.+?) toward your",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) connects to the (.+)!$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) curses you with the visage of a rotting corpse\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) darts to your mount's flank in a rapid dash\\. Grabbing your ankle and executing a graceful twist, (\\w+) sends you tumbling from the saddle\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) deftly hooks (.+) behind your foot and sends you tumbling off (.+) before driving the point of the weapon into your (?:right|left) leg\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) deftly thrusts (.+?) into you",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) delivers a lightning-fast strike to you with (.+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) directs (\\w+) searing gaze towards you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) dodges nimbly to the side and trips you to the floor\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) does a back handspring to the (\\w+), striking you with (\\w+) feet on the way out\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) does not yet labour under enough afflictions to be cursed with the power of Cadmus\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) draws a circle in the air with (\\w+) wand, and a fiery outline appears\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) draws back with a knowing smirk and utters some alien word that vibrates deep within your bones\\. Your mind swirls and body convulses in excruciating pain as your very spirit cries out in agony\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) draws back (\\w+) warhammer, then unleashes a precise blow that smashes into your arms with bone cracking force\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) draws back (\\w+) warhammer, then unleashes a precise blow that smashes into your legs with bone cracking force\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) draws (.+?) in an expert lateral slice across your (.+?)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) draws (.+?), then lunges forward with a savage strike to your ribs\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) draws (\\w+) blade back and plunges it deep into your helpless body impaling it to the hilt\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) draws you into (\\w+) gaze, lowering (\\w+) brow and glaring at you with righteous fury\\. Pointing at you with a single raised finger, (\\w+) recites a list of your transgressions, condemning your actions and words\\. A blaze of holy fire surges about (\\w+) as (\\w+) dictates your sentence\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) drives the edge of (\\w+) shield into your throat, cutting off your air supply\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) drops into a low crouch, sweeping (.+?) beneath your guard and tangling it with your legs\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) ducks low and smashes (\\w+) shield into your knees, causing them to buckle underneath you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) ducks low\\, (\\w+) blade slicing into your (.+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^\"We shall not falter,\" you murmur, laying a hand upon the brow of (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^\"We will endure until our work is done,\" you murmur, laying a hand upon the brow of (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) exhales loudly\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) exhales softly\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) expertly flourishes (.+?) in front of your face\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) explodes upward from a low crouch, driving (.+?) toward your torso\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) eyes dark and expression blank, (\\w+) strikes you a hollow blow\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) eyes gleaming, (\\w+) smiles and quickly sings a jaunty limerick at you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) falls upon you with both of (\\w+) weapons whirling, viciously assaulting your (.+?)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) falls upon you with both of (\\w+) weapons whirling, viciously assaulting your head\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) fashions a holocaust globe out of pure elemental fire and arms it\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) fashions a sphere of crackling electricity and arms it\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) fixes (\\w+) gaze to yours, raising (\\w+) right hand, before sharply snapping (\\w+) fingers\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) flays away your aura of rebounding defence\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) flays away your speed defence\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) flays the quicksilver coating from you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) flays the sileris coating from you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) flicks the temple of a (?:doll|puppet) of (\\w+), hard\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) flicks the temple of a puppet of (\\w+), hard\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) flings a tarot card at you and upon impact, it disappears\\. An ominous silence overtakes your surroundings\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) flings a tarot card at you which turns an ominous, sickly red before striking you in the head\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) flourishes (.+?) in front of your eyes, mesmerising you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) gathers (\\w+) breath and hurls a piercing battlecry towards you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) gestures grandly, and causes a deepfreeze to settle over (\\w+) enemies\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) gestures sharply in your direction, and a mass of green slime flows up and over you, coating your skin\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) gestures sharply in your direction with one hand, and invisible whips viciously lash at you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) gives a yell and slaps (.+), who powerfully kicks you with its hind legs and sends you sailing (\\w+) with arms flailing\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) gives you a vengeful stare, and dark images begin to whisper to you from the edges of your mind\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) glances at you while adding some facial detail to a doll\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) glances at you while adding some facial detail to a puppet\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) grows older before your eyes\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) grows very still for a moment, before (\\w+) eyes snap wide open and you feel something icy wrap about your limbs, binding you in place\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) grows very still, (\\w+) unblinking gaze locking to your own\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) has transferred command of the ship \"(.+?)\" to you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) health is at (\\d+) out of (\\d+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Whispering a prayer to the (\\w+) winds, (\\w+) draws (\\w+) (\\w+) and unleashes a slash towards your (.+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) howls in pain as thorny vines lash out at (\\w+) from all sides\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) hurls a tarot card with the image of the Hanged Man on it at you\\. As it reaches you, a huge mass of rope bursts out of it, entrapping and hindering you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Why would you reject (\\w+)\\?$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) illuminates you with a radiant light\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) inhales and begins holding (\\w+) breath\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) invokes the powers of Air and lays (\\w+) hands on you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) invokes the powers of (.+) and lays (\\w+) hands on you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) is not afflicted with that\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) is not yet afflicted enough to be weakened in such a way\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With a casual wave of the hand, (\\w+) brings a spinning tornado into being\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With a characteristic Jaziran trill, (\\w+) sings a qasida of asceticism to you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With a daegger in hand, (\\w+) begins to close in on you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With a frustratingly irrelevant vibrato you aim at (\\w+)'s (?:left|right) arm\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With a grand gesture of righteous fury, (\\w+) bedevils you with (\\w+) afflictions\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With a grand gesture of righteous fury, you draw upon the elemental forces at your command and bedevil (\\w+) with your afflictions\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With a gravity born of respect, you sing of the saintly Imithia, if only for yourself\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With a gravity born of respect, you sing of the saintly Imithia of legend, bringing a certain dull look to (\\w+)'s face\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With a grimness born of determination, you begin to unleash the Dragon that is now so much a part of the fabric of your soul\\. A (\\w+) light begins to shine through from within you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "With all (\\w+) wooden strength, a stick(?:man|woman) picks you up as though you were a rag doll and smashes you into the ground\\.",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With almost magical swiftness, a snarling wolf leaps out at (\\w+), rakes its claws across (\\w+) face, and disappears into the surrounding forest\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With a mournful cry you begin the requiem for Seleucar to (\\w+), who appears unmoved\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With an appraising glance at you, (\\w+) shapes the arms and legs of a rough doll\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With an appraising glance at you, (\\w+) shapes the arms and legs of a rough puppet\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With a pop of (\\w+) knuckles, (\\w+) buries (\\w+) foot under your back and flips you overonto your stomach\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With a single, terrible blow, you bring (.+?) whirling about to cleave into the already injured arms of (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With a smooth lunge to the (left|right), (\\w+) draws (\\w+) (\\w+) from its scabbard and delivers a powerful slash across your legs\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With a snarl of contempt, (\\w+) allows you to slide free of (\\w+) weapon\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With a snarl, (\\w+)'s Baalzadeen opens its mouth and spews a foul black liquid all over you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With astonishing quickness, a diminutive homunculus resembling (\\w+) moves to block your egress\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With a swipe of (\\w+) arm, (\\w+) sends two barbed vines slicing through the air toward your throat\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With a synchronous, guttural rasp, (\\w+)'s many serpentine heads breathe forth wisps of rapidly condensing smoke that entangle you in a tangible web\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With a terrible roar ([\\w'\\-]+) whips a colossal fist at your (.*)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With a trilling vibrato (\\w+) attacks your broken (left|right) arm causing you to scream in pain\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With a trilling vibrato (\\w+) shatters your (right|left) arm\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With a trilling vibrato you attack (\\w+)'s broken (?:left|right) arm. (\\w+) screams in pain\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With a trilling vibrato you shatter the (?:left|right) arm of (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With a vicious snarl (\\w+) carves a merciless swathe through your steaming guts\\. You gurgle and choke as (\\w+) withdraws (\\w+) dripping blade, glistening with gore\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With a wink, you recite \"Ode to Elixirs\" to (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With a wink, you recite \"Ode to Elixirs\" to (\\w+), who looks on, unimpressed\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With blinding speed, (.+) transfixes you with a swirling pattern of fire and air\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With calculated precision, (\\w+) unleashes a mighty blow at your arms, shattering bone and pulping flesh\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With calculated precision, (\\w+) unleashes a mighty blow at your legs, shattering bone and pulping flesh\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With casual indifference, (\\w+) summons forth a terrible cyclone of wind, which picks you up like a leaf and whips you uncontrollably into a spin\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With efficient, precise motions a crystalline golem latches onto your (left|right) (arm|leg), before giving a vicious twist\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With impossible speed the hand of (\\w+) lashes out, striking yours even as you make contact with your tattoo\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With one hand ominously pointed towards you, (\\w+) rubs a finger over the heart of a puppet\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With one hand ominously pointed towards you, (\\w+) rubs a finger over the heart of a Vodun doll\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^With rapid precision, (\\w+) aims first a punch then a spearhand blow at two points on your chest\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) knocks your legs out from under you and sends you sprawling to the floor\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) labours under no afflictions of the body\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) launches a devastating slash at your already injured arms, (\\w+) blade cleaving to the bone\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) launches a devastating slash at your already injured legs, (\\w+) blade cleaving to the bone\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) lays into you with a savage blow from (.+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) lays open your flesh with an expert lateral slice with (.+?)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) leaps from the shadows and plunges a dagger into your unsuspecting back!$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) lets fly at you with a snap kick\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) lightly strikes the side of your head with (\\w+) rapier, restoring your hearing\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) locks (\\w+) unnatural gaze to yours, and a terrible pressure begins to build behind your eyes\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) looks at your eyes and makes some alterations to (\\w+) doll\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) looks at your eyes and makes some alterations to (\\w+) puppet\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) looks closely at your hands and alters a puppet\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) looks closely at your hands and alters a Vodun doll\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) lowers",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) lunges downward, slamming the edge of (.+?) into your shins\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) lunges forward with long, flashing claws extended, tearing down to the bones of your (\\w+) (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) makes a quick, sharp gesture toward you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) makes a sudden, quick gesture in front of you, almost hitting your nose\\. (\\w+) hand glows with a vibrant violet light before snapping back to (\\w+) side\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) mana is at (\\d+) out of (\\d+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) masterfully adds heavier, darker tones to (\\w+) song, which rises and falls with a melancholy rhythm\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) mouth moving rapidly, a hepatizon malagma gestures at you and you drop to the ground, all of your limbs suddenly heavy beyond belief\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) moves in and delivers a precision strike to your neck as you attack\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) moves into the deeply mournful yet glorious tones of a funeral mass, directing the performance towards (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) moves into your attack, knocking your blow aside before viciously countering with a strike to your head\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) negligently waves (\\w+) hand in your direction, conjuring forth a hailstone which strikes you sharply in the side of the head\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) on the ground\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) passes (\\w+) hand in front of you\\. You feel an invisible claw brush the back of your skull\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) permits your assumption of command of the ship \"(.+?)\"\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) points a finger at you and you feel anti-magic sweep over you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) points an imperious finger at you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) points a ring of pestilence at you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) points (\\w+) fists at you and blasts you with frigidly cold air\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) pounces on you from an unseen hiding place, knocking you to the ground and tearing at you with teeth and claws\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) presses a tarot to your forehead and a sensation of warmth ripples through your body\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) pricks you twice in rapid succession with (\\w+) dirk\\.?$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) pulls back a(.+), readying (\\w+) for a deadly strike\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) quickly binds up your hands and feet, leaving you helpless\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) quickly flings a tarot card at you, and you feel unreasonable lust for (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) quickly pricks you with (\\w+) dirk\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) quickly trusses you up\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) raises a hand towards you and blasts you with cold, frigid air\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) raises Earthshaker above \\w+ head and smashes its face into the ground with a mighty roar\\. The earth around you shakes violently\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) raises (?:Gattan'lier's hunger|an insubstantial dagger) and points it at you with a sinister smile\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) raises (.+) (m|M)ace over you to pass judgement on your sins, and it begins to crackle with righteous fire\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) raises (\\w+) hands above (\\w+) head, gaze focused intently upon you\\. Moments later, a single lightning bolt streaks down from above, slamming into you with an explosion of brilliant power\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) raises (\\w+) (.+) over (\\w+) head and begins to swing it in a wide circle, gaining speed as (\\w+) goes\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) raises (\\w+) right hand, and snaps (\\w+) fingers\\.",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) raises (\\w+) trunk into the air and trumpets mightily, knocking you to the ground\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) razes your aura of rebounding with",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) razes your speed defence with",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) reaches out and bops you on the nose with (\\w+) blackjack\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) reaches out and clasps your face between searing hands, (\\w+) touch alone searing you to the bone and setting every muscle to spasming\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) reaches out and grabs your leg, which almost gives way underneath you as it shrivels feebly away\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) reaches out and presses a single stone digit to your (\\w+), and a sudden tingling overtakes the limb\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) recites an obscure, confusing Kamleikan haiku to you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Wrenching pain shoots through your (arm|leg)s as they are twisted and broken by an unknown force\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) rises back on (\\w+) hind legs, more than doubling in height as (\\w+) towers above you\\. The ground shakes violently as (\\w+) slams (\\w+) feet back down, recklessly crushing everyone in (\\w+) path\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) rubs a tarot card on your arm\\. You feel slightly nauseated and drained\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) rubs (\\w+) fingers briskly on a Tarot card\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+)'s aura of weapons rebounding disappears\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) savagely gouges into you with (.+?)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+)'s Baalzadeen casts a piercing glance at you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) sends an icy blue tendril of light that lashes out at you and wraps around you, sending a strange chill deep into your bones\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) sends the cold of the grave to freeze you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) sets a jack-in-the-box on the ground and quickly winds it while whispering, '(\\w+)\\.' The cheerful music of a lute begins to emanate from it\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+)'s eyes flutter and close as (\\w+) begins to rock back and forth, chanting ominously under (\\w+) breath\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+)'s eyes narrow as (\\w+) massive jaws yawn open and (\\w+) expels a sluggish cloud of (\\w+)\\. The nebulous haze clings to you for a moment, and you feel your (.+) and (.+) defences vanish\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+)'s eyes narrow as (\\w+) massive jaws yawn open and (\\w+) expels a sluggish cloud of (\\w+)\\. The nebulous haze clings to you for a moment, and you feel your (.+) defence vanish\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+)'s flashing blade dances before your eyes in a series of complicated feints\\. Time to run!$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+)'s guardian angel's eyes glow like embers as searing heat pours over you, causing you to burst into flames\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) shapes a jagged bolt of lightning and hurls it into you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) shifts into a more aggressive stance\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) shuffles some cards with the image of Lust out of (\\w+) deck\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) shuffles some cards with the image of the Aeon out of (\\w+) deck\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) sings a pastorale of the fields and streams to you\\. You feel reluctant to leave the ground\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) sings a sonorous chant at you, stripping your (.+) defence\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) sings the Passion of Imithia and your mind glazes with its beauty\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) sinks (\\w+) fangs into your body and you wince in pain\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) slams into you, knocking you off your feet and stunning you!$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) slams into you, knocking you to the ground as (\\w+) feet slam into your chest\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) slashes into your (.+) with",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) slowly raises (\\w+) head and you see (\\w+) eyes glowing bright white\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+)'s mace begins to make a high-pitched keening sound as it rapidly spins over (\\w+) head\\. You have only moments left to escape before you are judged!$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+)'s mana stands at (\\d+)/(\\d+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) snaps (\\w+) massive jaws close around you, flinging you effortlessly into the air before catching you with a second powerful bite\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+)'s nostrils flare wildly with a great rush of air as (\\w+) sinuous body contracts and (\\w+) mouth opens wide to emit a rippling, unbroken roar that reverberates through your body\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) spins a (?:doll|puppet) of (\\w+) rapidly in a circle\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) spins in a quick circle, using the momentum to savagely strike your chin with the edge of (.+?)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+)'s poem of gluttony and decay makes you feel ill\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) springs forwards and mauls your (.+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) stands a tarot on (\\w+) open palm, and blows it lightly at you\\. Suddenly your movement through the time stream is slowed\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) stands, wide-eyed with terror, as the blazing sphere slams into (\\w+) body, burning (\\w+) horribly\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) stares at you, giving you the evil eye\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) steps into the attack, grabs your arm, and throws you violently to the ground\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) stops uprooting the flag\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) stops you from moving that way\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) strikes your (\\w+) (\\w+) a mighty blow\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) sucks in a huge lungful of air and blasts (\\w+) fiery breath at you\\. You scream in agony as the horrific flames crackle over your melting flesh\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) suddenly inhales deeply\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) suddenly releases \\w+ vice-like grip on you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) summons a blade of condensed air and shears cleanly through the magical shield surrounding you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) summons forth a terrible cyclone of wind, picking you up and whipping you violently against all available surfaces until your head spins and your body aches\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) sweeps (.+) in a circle above (\\w+) head, the point of the blade coming to rest aimed at you\\. You feel a sharp pain, gone as swiftly as it came, and a fine crimson spray falls about you and (\\w+)\\.",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) swiftly sweeps your feet out from beneath you with (.+) before driving the point of the weapon into your (?:right|left) leg\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) swings (.+) at your (.+) with all (\\w+) might\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) swings the crackling mace about (\\w+) head, gathering momentum as (\\w+) bears down on you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) swings (\\w+) quarterstaff with all (\\w+) might, generating a great wind\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) swoops down from the skies towards you, and before you can resist has lifted you off your feet and carries you, kicking uselessly, in firm talons into the sky above\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) takes a step forward, bringing (.+?) in for a second quick jab\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) throws a Lovers tarot at you and as it strikes true, you fall hopelessly in love with (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) throws a sultry glance at you, and bursts into song with her angelic voice. In an instant, your heart is hers\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) throws (\\w+) palm towards your face\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) thrusts one hand in your direction and a vicious wind is summoned forth, viciously lacerating you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) thrusts (.+?) towards you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) tramples over you with (\\w+) enormous body\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) tumbles into a backflip to the up, kicking you in the back of the knee, which gives out and trips you to the ground in the process\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) turns to a crystalline golem, a silent exchange taking place\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) turns to face (\\w+), eyes glowing ominously\\. Two radiant arcs of white lightning dart forth from them, enveloping (\\w+) who screams and slowly dies as (\\w+) is burned alive\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) turns to fix (\\w+) gaze upon you, and you feel your heart increase its palpitations as a low keening echoes from (\\w+) throat\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) twists and contorts the wooden tongue of a puppet of (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) twists (\\w+) torso and sends a roundhouse towards you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) unleashes a bone crushing blow with (.+) at your arms, pulverising meat and bone in a single strike\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) unleashes a bone crushing blow with (.+) at your legs, pulverising meat and bone in a single strike\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) unleashes a reckless burst of white-hot flames, creating a roaring inferno about (\\w+) person\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) unleashes a terrible blow at your (?:left|right) (?:arm|leg) with",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) unleashes a vicious slash towards you before resheathing (\\w+) blade, (\\w+) (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) utters a prayer and smites your (left|right) (arm|leg) with",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) utters a terrible curse and points a finger at you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) viciously gouges your (.+?) with (.+?)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) viciously jabs a needle-pointed dirk into you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) viciously jabs (.+) into you",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) viciously jabs (.+) into your (.+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) viciously lacerates your (.+?) with (.+?)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) viciously lacerates you with (.+?)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) viciously smashes (\\w+) quarterstaff into your legs, sending you sprawling\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) violently grabs your already damaged (\\w+) (\\w+), wrenches you off balance, then throws you violently to the ground\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) waves a hand in your direction and you feel energy wreathing about you\\. A strong burning sensation rushes through your body\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) waves a hand in your direction and you feel energy wreathing about you\\. Small patches of your skin waver before turning into shards of sharp glass\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) waves (\\w+) hands quickly in front of the eyes of a (?:Vodun doll|puppet) of (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) whips (.+?) in a savage arc, cleaving at your legs\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) whips (.+?) in a swift motion toward you, scything through your (.+?) defence\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) whips (.+) into a fury, bucking and racing dangerously in a circle, trampling the ground in a frenzy\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) whirls (.+) in a terrible two-handed blow, aimed at your already injured arms\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) whispers comforting words to a (?:puppet|doll) of (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^(\\w+) whispers \"Sleep...sleep\" to a doll of (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "(\\w+) wields a runic totem in both hands",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You allow \\d+ to assume command of the ship \"(.+?)\"\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You are held motionless by (\\w+)'s epic tale of Nicator's heroism and bravery\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You are knocked forcefully off your feet by the impact of (\\w+)'s huge tail\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You are now unnaturally aged by (\\d+) years\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You attempt to sit on (\\w+), but you miss and land with a bump\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You begin moving your frozen body slowly (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You begin reciting an epic tale of the heroism of Nicator to (\\w+), holding (\\w+) spellbound\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You begin somersaulting towards the (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You begin to panic as you see a kena rune on (?:the ground|a totem)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You begin to tumble agilely to the (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You begin to writhe furiously to escape the (\\w+) that has impaled you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You belt out a meaningless screech of varying pitch at (\\w+) who appears unaware of your artistry\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You bleed (\\d+) health\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You bleed (\\d+) mana\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You call upon the powers of (.+) and project your healing through your Spirit channel\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You cannot wield that on the (\\w+) due to injuries\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You carefully turn (.+?) and refill (.+?) with (.+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You cease to wield (.+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You change builder bounty #(\\d+)'s content\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You chant 'GIMMEGIMME' at (\\w+), who does not react\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You command a diminutive homunculus resembling (\\w+) to give (.+) to (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You command a diminutive homunculus resembling (\\w+) to move to the (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You command your bloodleech to poison the blood of (\\w+) with (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You command your bubonis to bring down a minor curse of Cadmus against (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You command your chaos storm to bring down the curse of (\\w+) upon (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You command your chimera to annihilate the defences surrounding (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You command your crone to unhinge the mind of (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You command your dervish to drag (\\w+) from the skies\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You command your firelord to bring down a portion of the power of Pyradius against (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You command your hound to rend the flesh of (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You command your humbug to bring down the curse of (\\w+) upon (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You command your slime to envelop (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You command your sycophant to weaken the mind of (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You command your worm to infest (\\w+) with maggots\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You eat ([^\\.]+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You feel a deadening pall overcome your mind, put there by (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You feel an unusually strong lust for (\\w+)(\\.| \\(M\\)\\.)$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You feel a slight tingle across your skin as (\\w+) glances at you, but it soon fades\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You feel a strong tug in the pit of your stomach\\. Your surroundings dissolve into the featureless swirl of the ether, resolving once more into a recognisable landscape as you land before (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You feel a sudden wave of malaise as your (choleric|melancholic|phlegmatic|sanguine) humour is tempered\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You feel bones grinding against one another as the fist of ([\\w'\\-]+) smashes into your (.*) with pulverising force\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You feel drawn, thinned, and the world around you speeds up noticeably",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You feel suddenly clumsy beside the graceful maqam of el'Jazira that (\\w+) sings at you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You feel the spiritual presence of (\\w+) touch you momentarily\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You feel (\\w+)'s mind attacking yours from all sides, and you lose your mental equilibrium\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You feel your body and mind ripped apart as you are enfeebled by (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You feel your (.+) defence get picked off you somehow\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You feel your (.+) defence stripped by the powerful lightning bolt\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You feel your (right|left) (arm|leg) snap\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You get (\\d+) (\\w+) from your pocketbelt\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You glance over (\\w+) and see that (\\w+) health is at (\\d+)/(\\d+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You glower at (\\w+), preparing to assault (\\w+) humours\\. You make a gesture toward (\\w+), grabbing at the ether strand binding you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You groan in pain as (\\w+) twists the blade within your gut\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You have achieved transcendence: your body and mind operate as one\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You have added the (\\w+) affliction to your predicted afflictions list\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You have no (.+) stored in the Rift\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You have no (.+) suitable for butchering\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You have now aged yourself by (\\d+) years\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You hold no \"(\\w+)\"\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You invoke the powers of (.+) and lay your healing hands on yourself\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You just received message #(\\w+) from (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You know on an instinctive level that if (\\w+) is allowed to continue, it shall be your end\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You let the grace of your voice shine forth with a Scarlattan cantata at (.+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You light (.+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You look through the mind of a diminutive homunculus resembling (\\w+):$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You lunge forward at (\\w+) with (.+?), but stumble hopelessly off balance\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You mindlessly obey the summoning of (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You move over to block the (.+) exit\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You order a diminutive homunculus resembling (\\w+) to get (.+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You order your homunculus to drop (.+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You order your homunculus to say, \"(.*)\"\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You point (.+) at something, but the purpose of doing so eludes you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You put (\\d+) (.+?) in your pocketbelt\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your blindness is cured by a wunjo rune on (?:a totem|the ground)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your body and mind are in perfect harmony; transcendence is yours\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your body and mind continue to harmonise: you are (\\d+) percent of the way to full transcendence\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your body and mind fall out of their transcendent state\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your body locks in paralysis as a burst of arcane power floods your system, directed by (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your cantata shatters the defences surrounding (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your cantata shatters the magical shield surrounding (.+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^your choleric (?:humour|temper) has been tempered a total of (\\d+) times\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your (choleric|melancholic|phlegmatic|sanguine) humour drains some\\.$",
+    "matching": [
+      "Your choleric humour drains some.",
+      "Your melancholic humour drains some.",
+      "Your phlegmatic humour drains some.",
+      "Your sanguine humour drains some."
+    ],
+    "non-matching": [
+      "Your bile humour drains some.",
+      "Your melancholic and sanguine humours drains some.",
+      "Your choleric humour drains.",
+      "Your sanguine humour drain some."
+    ]
+  },
+  {
+    "regex": "^Your command separator is now: (.+)$",
+    "matching": [
+      "Your command separator is now: /",
+      "Your command separator is now: &",
+      "Your command separator is now: |",
+      "Your command separator is now: ;"
+    ],
+    "non-matching": [
+      "Your command separator is now /",
+      "Your command separator is: /",
+      "Your command separator is now &.",
+      "Your command separation is now:"
+    ]
+  },
+  {
+    "regex": "^\"Your crimes shall not go unpunished,\" you recite to (\\w+), voice hard with condemnation\\.$",
+    "matching": [
+      "\"Your crimes shall not go unpunished,\" you recite to Wulfen, voice hard with condemnation.",
+      "\"Your crimes shall not go unpunished,\" you recite to Clementius, voice hard with condemnation.",
+      "\"Your crimes shall not go unpunished,\" you recite to Shaitan, voice hard with condemnation.",
+      "\"Your crimes shall not go unpunished,\" you recite to Aegis, voice hard with condemnation."
+    ],
+    "non-matching": [
+      "Your crimes shall not go unpunished, you recite to Rho, voice hard with condemnation.",
+      "\"Your crimes shall not go unpunished\", you recite to Wulfen, voice hard with condemnation.",
+      "\"Your crimes shall not go unpunished,\" you recite to Babel, your voice hard with condemnation.",
+      "\"Your crime shall not go unpunished,\" you recite to Babel, voice hard with condemnation."
+    ]
+  },
+  {
+    "regex": "^Your current separator is: (.+)$",
+    "matching": [
+      "Your current separator is: /",
+      "Your current separator is: &",
+      "Your current separator is: |",
+      "Your current separator is: ;"
+    ],
+    "non-matching": [
+      "Your current separator is /",
+      "Your current separator is /.",
+      "Your separator is: &",
+      "Your current separator is:"
+    ]
+  },
+  {
+    "regex": "^Your (.+) defence corrodes beneath its profane proximity\\.$",
+    "matching": [
+      "Your waterwalking defence corrodes beneath its profane proximity.",
+      "Your mass defence corrodes beneath its profane proximity.",
+      "Your shield defence corrodes beneath its profane proximity.",
+      "Your 50% XP defence corrodes beneath its profane proximity."
+    ],
+    "non-matching": [
+      "The waterwalking defence corrodes beneath its profane proximity.",
+      "Your mass defence corrodes beneath the profane proximity.",
+      "Your shield defense corrodes beneath its profane proximity.",
+      "Your density defence corrodes beneath its profane proximity"
+    ]
+  },
+  {
+    "regex": "^Your (.+) defence erodes away\\.$",
+    "matching": [
+      "Your mass defence erodes away.",
+      "Your waterwalking defence erodes away.",
+      "Your nightsight defence erodes away.",
+      "Your lifevision defence erodes away."
+    ],
+    "non-matching": [
+      "Your nightsight defences erode away.",
+      "Your lifevision erodes away.",
+      "Your waterwalking defense erodes away.",
+      "Your mass defense goes away."
+    ]
+  },
+  {
+    "regex": "^Your (.+) defence has been stripped as your body vibrates in sync with a dissonant vibration\\.$",
+    "matching": [
+      "Your density defence has been stripped as your body vibrates in sync with a dissonant vibration.",
+      "Your waterbreathing defence has been stripped as your body vibrates in sync with a dissonant vibration.",
+      "Your reflection defence has been stripped as your body vibrates in sync with a dissonant vibration.",
+      "Your lifevision defence has been stripped as your body vibrates in sync with a dissonant vibration."
+    ],
+    "non-matching": [
+      "Your density defense has been stripped as your body vibrates in sync with a dissonant vibration.",
+      "Your waterwalking defences have been stripped as your body vibrates in sync with a dissonant vibration.",
+      "Your reflection has been stripped as your body vibrates in sync with a dissonant vibration.",
+      "Your shield defence has been stripped, as your body vibrates in sync with a dissonant vibration."
+    ]
+  },
+  {
+    "regex": "^Your (.+) defence has been stripped by (\\w+)'s Baalzadeen\\.$",
+    "matching": [
+      "Your mass defence has been stripped by Wulfen's Baalzadeen.",
+      "Your waterwalking defence has been stripped by Wulfen's Baalzadeen.",
+      "Your nightsight defence has been stripped by Maya's Baalzadeen.",
+      "Your reflection defence has been stripped by Maya's Baalzadeen."
+    ],
+    "non-matching": [
+      "Your waterwalking has been stripped by Wulfen's Baalzadeen.",
+      "Your nightsight defence has been stripped by a Baalzadeen.",
+      "Your density defence was stripped by Clementius's Baalzadeen.",
+      "Your lifevision defense has been stripped by Clementius's Baalzadeen."
+    ]
+  },
+  {
+    "regex": "^Your (.+) defence has been stripped by (\\w+)'s guardian angel\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your (.+) defence is destroyed by an unseen force\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your (.+) defence is ripped apart by its talons\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your (.+) defence is stripped away\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your (.+) defence is torn to tatters by her jaws\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You realise with horror that the eldritch utterence has caused (\\d+) insanities to descend upon you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your ears are abruptly filled with the shockingly loud clap of nearby thunder, summoned forth by (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You reel as your mind is viciously battered by a mental assault from (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You reject the friendship of (\\w+)\\.$",
+    "matching": [
+      "You reject the friendship of Vadimuses.",
+      "You reject the friendship of Cory.",
+      "You reject the friendship of him.",
+      "You reject the friendship of everyone."
+    ],
+    "non-matching": [
+      "You reject the friendship of all the people.",
+      "You reject the friendship of 10 people.",
+      "You reject their friendship.",
+      "You reject friendships of Vadimuses."
+    ]
+  },
+  {
+    "regex": "^You're knocked to the ground by the impact of (\\w+)'s feet\\. Your surprise is quickly supplanted by pain as (\\w+) skewers you like a wild boar\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You remove (\\d+) (.+), bringing the total in the (?:R|r)ift to (\\d+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your guardian burns with a power of (\\d+) of a maximum (\\d+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your inaction causes the harmonisation of your body and mind to falter: you are now only (\\d+) percent of the way to transcendence\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your left arm goes abruptly numb as (.+?) crunches home\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your (?:left|right) (?:leg|arm) is too mangled to cure in that manner\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your limbs lock up in paralysis as you see an inguz rune on (?:the ground|a totem)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your magics around the (\\w+) channel have been destroyed by the knife sigil\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^your melancholic (?:humour|temper) has been tempered a total of (\\d+) times\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your mind feels suddenly vacant as (.+) levels its gaze at you\\.$",
+    "matching": [
+      "Your mind feels suddenly vacant as someone levels its gaze at you.",
+      "Your mind feels suddenly vacant as 1 levels its gaze at you.",
+      "Your mind feels suddenly vacant as Danith levels its gaze at you.",
+      "Your mind feels suddenly vacant as a basilisk levels its gaze at you."
+    ],
+    "non-matching": [
+      "Your mind feels vacant as someone levels its gaze at you.",
+      "Your mind feels vacant as Danith suddenly levels its gaze at you.",
+      "Your mind feels suddenly vacant. A basilisk levels its gaze at you.",
+      "Your mind feels suddenly vacant, and Rho levels its gaze at you."
+    ]
+  },
+  {
+    "regex": "^Your mind is disrupted by the irritating ditty (\\w+) sings at you\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your only warning of the impending danger is a great shout from (\\w+) as (\\w+) comes launching up from below\\. Then (\\w+) heel drives into your chest with shocking power, driving you back to the earth below with bone jarring force\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^your phlegmatic (?:humour|temper) has been tempered a total of (\\d+) times\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your recitation of an epic tale of the heroism of Nicator has no effect on (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your right arm goes abruptly numb as (.+?) crunches home\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your (right|left) (arm|leg) is suddenly mangled nearly beyond repair, and pain erupts up and down the length of it\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your (right|left) (leg|arm) is too (?:damaged|mangled) to cure in that manner\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your (right|left) (leg|arm) is too damaged to cure in that manner\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^your sanguine (?:humour|temper) has been tempered a total of (\\d+) times\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^\"Your sins condemn you to this fate,\" you recite to (\\w+), voice hard with condemnation\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your soul burns as, at the behest of (\\w+), the power of (\\w+) sears it\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your voice rises to the heavens with your instrument as you sing an Aria of healing to (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your voice rises to the heavens with your instrument, but without your audience, as you sing an Aria of healing to (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your (\\w+) arm is too severely damaged to permit that\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your world becomes nothing but stars as the haft of (.+?) slams into the side of your head, courtesy of (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^Your (\\w+) summoning is complete\\.$",
+    "matching": [
+      "Your demon summoning is complete.",
+      "Your entity summoning is complete.",
+      "Your demonic summoning is complete.",
+      "Your Baalzadeen summoning is complete."
+    ],
+    "non-matching": [
+      "Your summoning is complete.",
+      "Your summon is complete.",
+      "Your demonic summon is complete.",
+      "Your demon is summoned completely."
+    ]
+  },
+  {
+    "regex": "^Your (\\w+) (\\w+) is greatly damaged from the beating\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You scrabble futilely at the ground as (\\w+) drags your impaled body off to the (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You see no (\\w+) in your inventory\\.$",
+    "matching": [
+      "You see no weapons in your inventory.",
+      "You see no rope in your inventory.",
+      "You see no polearm in your inventory.",
+      "You see no 100 in your inventory."
+    ],
+    "non-matching": [
+      "You see nothing in your inventory.",
+      "You see no weapons.",
+      "You see no sword or shield in your inventory.",
+      "You see no rope in the inventory."
+    ]
+  },
+  {
+    "regex": "^You sing a sonorous chant which fails to strip the defences of (\\w+)\\.$",
+    "matching": [
+      "You sing a sonorous chant which fails to strip the defences of Cory.",
+      "You sing a sonorous chant which fails to strip the defences of them.",
+      "You sing a sonorous chant which fails to strip the defences of Vadimuses.",
+      "You sing a sonorous chant which fails to strip the defences of anyone."
+    ],
+    "non-matching": [
+      "You sing a sonorous chant which fails to strip the defences of your opponent.",
+      "You sing a sonorous song which fails to strip the defences of Cory.",
+      "You sing a sonorous chant which fails to strip the defenses of Cory.",
+      "You chant a sonorous chant which fails to strip the defences of Cory."
+    ]
+  },
+  {
+    "regex": "^You slowly hobble (\\w+)\\.$",
+    "matching": [
+      "You slowly hobble east.",
+      "You slowly hobble west.",
+      "You slowly hobble 10.",
+      "You slowly hobble WEST."
+    ],
+    "non-matching": [
+      "You slowly hobble to the west.",
+      "You slowly hobble away to the east.",
+      "You slowly hobble 10 steps.",
+      "You slowly hobble."
+    ]
+  },
+  {
+    "regex": "^You speak words of power over (.+)\\.$",
+    "matching": [
+      "You speak words of power over Cory.",
+      "You speak words of power over him.",
+      "You speak words of power over the tall human warrior.",
+      "You speak words of power over 5 kobolds."
+    ],
+    "non-matching": [
+      "You speak words of power to him.",
+      "You speak words of power at them.",
+      "You speak words of power.",
+      "You speak words of power, hitting them."
+    ]
+  },
+  {
+    "regex": "^You store (\\d+) (.+?), bringing the total in the rift to (\\d+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You store (\\d+) (.+), bringing the total in the rift to (\\d+), which is the maximum for that type of object\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You store (\\d+) (.+), bringing the total to (\\d+)\\.$",
+    "matching": [
+      "You store 50 moss, bringing the total to 50.",
+      "You store 5 moss, bringing the total to 55.",
+      "You store 1500 bayberry, bringing the total to 2500.",
+      "You store 500 cube crystals, bringing the total to 1000."
+    ],
+    "non-matching": [
+      "You store a cube crystal, bringing the total to 5.",
+      "You store 100, bringing the total to 100.",
+      "You store 10 moss, bringing the total to ten.",
+      "You store 75 cubes, making the total 75."
+    ]
+  },
+  {
+    "regex": "^You strike out at (\\w+) with your deadly tail, and sting (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You stumble slightly as (\\w+) touches your (left|right) leg, and it shrivels away\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You suddenly feel that it would be a fine idea to relax your (.+) defence\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You suddenly get the feeling that eating (kelp|goldenseal|lobelia|ash|bellwort) would be a very bad idea indeed\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You (?:take a drink from|down the last drop from)",
+    "matching": [
+      "You take a drink from a healing elixir.",
+      "You take a drink from the health elixir.",
+      "You down the last drop from a healing elixir.",
+      "You down the last drop from a health elixir."
+    ],
+    "non-matching": [
+      "You take the last drop from a healing elixir.",
+      "You take a drink, downing the last drop from a healing elixir.",
+      "You drink the last drop from a healing elixir.",
+      "You take a drink of a health elixir."
+    ]
+  },
+  {
+    "regex": "^(?:You take a long drag(.*?) off your pipe\\.|Your draw is accompanied by a deep gurgling sound before a series of shining bubbles erupt from the bowl of your pipe\\.)$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You take out some salve and quickly rub it on your",
+    "matching": [
+      "You take out some salve and quickly rub it on your left arm.",
+      "You take out some salve and quickly rub it on your head.",
+      "You take out some salve and quickly rub it on your right and left legs.",
+      "You take out some salve and quickly rub it on your head, but it is ineffective."
+    ],
+    "non-matching": [
+      "You take out some salve and quickly rub it on the torso.",
+      "You take out some salve, and quickly rub it on your right arm.",
+      "You take out some salve and quickly rub it upon your right arm.",
+      "You take out some healing salve and quickly rub it on your head."
+    ]
+  },
+  {
+    "regex": "^You take the hand of (\\w+) and clasp your own hands around it. You stare deep into (\\w+) eyes, summoning forth the karmic knowledge deep within you and willing it towards (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You watch in horror as (\\w+) touches your (right|left) arm, and it shrivels away to uselessness\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You whip (.+?) at (.*)\\.",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You whip (.+?) at the side (.*)\\.",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You whip (.+?) in a vicious arc, hewing savagely into the legs of (\\w+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You will now attempt to intercept and counter attacks coming at your (.+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^You will now attempt to parry attacks to your (.+)\\.$",
+    "matching": [
+      "You will now attempt to parry attacks to your right arm.",
+      "You will now attempt to parry attacks to your left leg.",
+      "You will now attempt to parry attacks to your head.",
+      "You will now attempt to parry attacks to your torso."
+    ],
+    "non-matching": [
+      "You will now attempt to parry attacks to the head.",
+      "You will now attempt to parry attacks to your right and left legs.",
+      "You will now attempt to parry to the head.",
+      "You will now attempt to parry attacks to everything."
+    ]
+  },
+  {
+    "regex": "^You will now use mana if above (\\d+)% of your maximum mana reserves\\.$",
+    "matching": [
+      "You will now use mana if above 80% of your maximum mana reserves.",
+      "You will now use mana if above 100% of your maximum mana reserves.",
+      "You will now use mana if above 1% of your maximum mana reserves.",
+      "You will now use mana if above 0% of your maximum mana reserves."
+    ],
+    "non-matching": [
+      "You will now use mana if above half of your maximum mana reserves.",
+      "You will now use mana if above fifty% of your maximum mana reserves.",
+      "You will use mana if above 50% of your maximum.",
+      "You will use mana if above 50% of your maximum mana."
+    ]
+  },
+  {
+    "regex": "^You will now use your razor-sharp talons to parry attacks to your (.+)\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^A deathly calm descends upon your surroundings as (\\w+) draws (\\w+) up regally, eyes gleaming with murderous intent\\.$",
+    "matching": [
+      "A deathly calm descends upon your surroundings as Jack draws himself up regally, eyes gleaming with murderous intent.",
+      "A deathly calm descends upon your surroundings as Sarah draws herself up regally, eyes gleaming with murderous intent."
+    ],
+    "non-matching": [
+      "A deathly calm descends upon your surroundings as the assassin draws his knife up regally, eyes gleaming with murderous intent.",
+      "A deathly calm descends upon your surroundings as Jack draws up his sword regally, eyes gleaming with murderous intent.",
+      "A deathly calm descends upon your surroundings as Sarah draws her bow regally, eyes gleaming with murderous intent and focus.",
+      "A deathly calm descends upon your surroundings as the assassin draws his knife, eyes gleaming with murderous intent."
+    ]
+  },
+  {
+    "regex": "^A diminutive homunculus resembling (\\w+) claws into your flesh with dirty nails. The surrounding flesh begins to swell with fluid\\.$",
+    "matching": [],
+    "non-matching": []
+  },
+  {
+    "regex": "^A diminutive homunculus resembling (\\w+) obediently falls into line behind you\\.$",
+    "matching": [
+      "A diminutive homunculus resembling Sarah obediently falls into line behind you.",
+      "A diminutive homunculus resembling James obediently falls into line behind you.",
+      "A diminutive homunculus resembling you obediently falls into line behind you."
+    ],
+    "non-matching": [
+      "A diminutive homunculus falls into line behind you.",
+      "A diminutive homunculus resembling a goblin falls into line behind you disobediently.",
+      "A diminutive homunculus resembling a rat falls into line behind you, but does not look obedient."
+    ]
+  },
+  {
+    "regex": "^A diminutive homunculus resembling (\\w+) stares intendedly at you, its eyes flashing a deep blue\\. A strange feeling spreads through your body as your melancholic and sanguine humours become corrupted\\.$",
+    "matching": [
+      "A diminutive homunculus resembling goblin stares intendedly at you, its eyes flashing a deep blue. A strange feeling spreads through your body as your melancholic and sanguine humours become corrupted."
+    ],
+    "non-matching": [
+      "A diminutive homunculus resembling a goblin stares at you, its eyes flashing a deep blue. A strange feeling spreads through your body as your melancholic and sanguine humours become corrupted.",
+      "A diminutive homunculus resembling a rat stares intendedly at you, its eyes flashing a green. A strange feeling spreads through your body as your melancholic and sanguine humours become corrupted.",
+      "A diminutive homunculus resembling a toad stares intendedly at you, its eyes flashing a deep blue. A strange feeling spreads through your body as your melancholic and choleric humours become corrupted.",
+      "A diminutive homunculus resembling a goblin claws into your flesh with dirty nails. The surrounding flesh begins to swell with fluid."
+    ]
+  },
+  {
+    "regex": "^A diminutive homunculus resembling (\\w+) turns its head towards you, its jaws opening wider than what seems possible\\. The homunculus stares intently at you and lets out an ear-piercing shriek that disrupts your thoughts\\.$",
+    "matching": [
+      "A diminutive homunculus resembling goblin turns its head towards you, its jaws opening wider than what seems possible. The homunculus stares intently at you and lets out an ear-piercing shriek that disrupts your thoughts.",
+      "A diminutive homunculus resembling rat turns its head towards you, its jaws opening wider than what seems possible. The homunculus stares intently at you and lets out an ear-piercing shriek that disrupts your thoughts.",
+      "A diminutive homunculus resembling toad turns its head towards you, its jaws opening wider than what seems possible. The homunculus stares intently at you and lets out an ear-piercing shriek that disrupts your thoughts."
+    ],
+    "non-matching": [
+      "A diminutive homunculus resembling a goblin turns its head towards you, its jaws opening wider than what seems possible. The homunculus lets out an ear-piercing shriek that disrupts your thoughts.",
+      "A diminutive homunculus resembling a rat turns its head towards you, its jaws opening wider than what seems possible. The homunculus stares intently at you and lets out an ear-piercing moan that disrupts your thoughts.",
+      "A diminutive homunculus resembling a toad turns its head towards you, its jaws opening wider than what seems possible. The homunculus stares at you and lets out an ear-piercing shriek that disrupts your thoughts."
+    ]
+  },
+  {
+    "regex": "^Adjusting your footing, you unleash a horrific slash at the (?:arms|legs) of (\\w+), cleaving flesh and shattering bone in a savage display of your supremecy\\.$",
+    "matching": [
+      "Adjusting your footing, you unleash a horrific slash at the legs of goblin, cleaving flesh and shattering bone in a savage display of your supremecy.",
+      "Adjusting your footing, you unleash a horrific slash at the arms of rat, cleaving flesh and shattering bone in a savage display of your supremecy.",
+      "Adjusting your footing, you unleash a horrific slash at the legs of imp, cleaving flesh and shattering bone in a savage display of your supremecy.",
+      "Adjusting your footing, you unleash a horrific slash at the legs of orc, cleaving flesh and shattering bone in a savage display of your supremecy."
+    ],
+    "non-matching": [
+      "Adjusting your footing, you unleash a horrific slash at the arms of the goblin, slightly injuring it in a display of your power.",
+      "Adjusting your footing, you unleash a horrific slash at the goblin, cleaving flesh and shattering bone in a savage display of your supremecy.",
+      "Adjusting your footing, you unleash a horrific slash at the legs of the rat, cleaving flesh and shattering bone in a display of your supremecy."
+    ]
+  },
+  {
+    "regex": "^A flag emblazoned with the Owl falls from (\\w+)'s person\\.$",
+    "matching": [
+      "A flag emblazoned with the Owl falls from John's person.",
+      "A flag emblazoned with the Owl falls from Michael's person.",
+      "A flag emblazoned with the Owl falls from Emily's person."
+    ],
+    "non-matching": [
+      "A flag emblazoned with the Owl is seen on Emily's flagpole.",
+      "A flag emblazoned with the Tiger falls from John's person.",
+      "A flag emblazoned with the Eagle falls from Michael's person.",
+      "A flag emblazoned with the Wolf falls from Emily's person."
+    ]
+  },
+  {
+    "regex": "^A (?:giant|large) red scorpion jabs his stinger into your body and you burst into flame!$",
+    "matching": [
+      "A giant red scorpion jabs his stinger into your body and you burst into flame!",
+      "A large red scorpion jabs his stinger into your body and you burst into flame!"
+    ],
+    "non-matching": [
+      "A giant red scorpion jabs his stinger into your body and you burst into ash!",
+      "A large red scorpion jabs his stinger into your body and you burst into smoke!",
+      "A giant blue scorpion jabs his stinger into your body and you burst into flame!",
+      "A large red scorpion jabs his stinger into your body and you burst into fire!"
+    ]
+  },
+  {
+    "regex": "^A (?:giant|large) (?:red|yellow|black) scorpion jabs his stinger into your body and you wince in pain\\.",
+    "matching": [
+      "A giant red scorpion jabs his stinger into your body and you wince in pain.",
+      "A large yellow scorpion jabs his stinger into your body and you wince in pain.",
+      "A giant black scorpion jabs his stinger into your body and you wince in pain."
+    ],
+    "non-matching": [
+      "A giant red scorpion jabs his pincer into your body and you wince in pain.",
+      "A large yellow scorpion jabs his stinger into your foot and you wince in pain.",
+      "A giant blue scorpion jabs his stinger into your body and you wince in pain."
+    ]
+  },
+  {
+    "regex": "^Agony radiates out from the point of impact as (\\w+) brings the haft of (.+?) down upon your head with crushing force\\.$",
+    "matching": [
+      "Agony radiates out from the point of impact as John brings the haft of his sword down upon your head with crushing force.",
+      "Agony radiates out from the point of impact as Michael brings the haft of their mace down upon your foot with crushing force.",
+      "Agony radiates out from the point of impact as Emily brings the haft of her mace upon your head with crushing force."
+    ],
+    "non-matching": [
+      "Agony radiates out from the point of impact as John brings the haft of his mace down upon your shoulder with crushing force.",
+      "Agony radiates out from the point of impact as Michael brings the head of their warhammer down upon your head with crushing force.",
+      "Agony radiates out from the point of impact as Emily brings the handle of her mace upon your head with crushing force.",
+      "Agony radiates out from the point of impact as John brings the haft of his sword down upon your chest with crushing force."
+    ]
+  },
+  {
+    "regex": "^A great black cloud of buzzing humming bodies descends upon you",
+    "matching": [
+      "A great black cloud of buzzing humming bodies descends upon you.",
+      "A great black cloud of buzzing humming bodies descends upon you and your friends.",
+      "A great black cloud of buzzing humming bodies descends upon you ominously.",
+      "A great black cloud of buzzing humming bodies descends upon you, terrifying you."
+    ],
+    "non-matching": [
+      "A great black cloud of buzzing, humming bodies descends upon you.",
+      "A great, black cloud of buzzing, humming bodies descends upon you.",
+      "A great, black cloud of buzzing humming bodies descends upon the environment.",
+      "A grea black cloud of buzzing and humming bodies descends upon you."
+    ]
+  },
+  {
+    "regex": "^A heavy burden descends upon your soul as (\\w+) lays the ancient Dragoncurse upon you\\.$",
+    "matching": [
+      "A heavy burden descends upon your soul as Wulfen lays the ancient Dragoncurse upon you.",
+      "A heavy burden descends upon your soul as Tenebrus lays the ancient Dragoncurse upon you.",
+      "A heavy burden descends upon your soul as 100 lays the ancient Dragoncurse upon you.",
+      "A heavy burden descends upon your soul as someone lays the ancient Dragoncurse upon you."
+    ],
+    "non-matching": [
+      "A heavy burden descends upon your soul as two Dragons lays the ancient Dragoncurse upon you.",
+      "A heavy burden descends upon your soul as another Dragon lays the ancient Dragoncurse upon you.",
+      "A heavy burden descends upon your soul as Wulfen lays the ancient dragoncurse upon you.",
+      "A heavy burden descends upon your soul as Wulfen lays an ancient Dragoncurse upon you."
+    ]
+  },
+  {
+    "regex": "^A howling wind sweeps over you, its terrible power scouring flesh from bone and leaving your face a bloody ruin by the will of (\\w+)\\.$",
+    "matching": [
+      "A howling wind sweeps over you, its terrible power scouring flesh from bone and leaving your face a bloody ruin by the will of Michael.",
+      "A howling wind sweeps over you, its terrible power scouring flesh from bone and leaving your face a bloody ruin by the will of Sarah.",
+      "A howling wind sweeps over you, its terrible power scouring flesh from bone and leaving your face a bloody ruin by the will of William.",
+      "A howling wind sweeps over you, its terrible power scouring flesh from bone and leaving your face a bloody ruin by the will of Jennifer."
+    ],
+    "non-matching": [
+      "A howling wind sweeps over you, its terrible power scouring flesh from bone and leaving your face a bloody ruin by the will of Michael, but he is not a sorcerer or a mage.",
+      "A howling wind sweeps over you, its terrible power scouring flesh from bone and leaving your face a bloody ruin by the will of Sarah, but she doesn't have any magical powers."
+    ]
+  },
+  {
+    "regex": "^A humbug scuttles forward and springs for your throat, attaching itself there for a brief instant. Your head violently swims as you feel it bring the curse of (\\w+) down upon you\\.$",
+    "matching": [
+      "A humbug scuttles forward and springs for your throat, attaching itself there for a brief instant. Your head violently swims as you feel it bring the curse of anorexia down upon you.",
+      "A humbug scuttles forward and springs for your throat, attaching itself there for a brief instant. Your head violently swims as you feel it bring the curse of asthma down upon you."
+    ],
+    "non-matching": [
+      "A humbug scuttles forward and springs for your throat, attaching itself there for a brief instant. Your head violently swims as you feel it bring the curse of the witch down upon you.",
+      "A humbug scuttles forward and springs for your throat, attaching itself there for a brief instant. Your head violently swims as you feel it bring the curse of the wizard down upon you.",
+      "A humbug scuttles forward and springs for your throat, attaching itself there for a brief instant. Your head violently swims as you feel it bring the curse of the necromancer down upon you."
+    ]
+  },
+  {
+    "regex": "A large wall of stone stands here, blocking passage to the (\\w+)\\.",
+    "matching": [
+      "A large wall of stone stands here, blocking passage to the west.",
+      "A large wall of stone stands here, blocking passage to the north.",
+      "A large wall of stone stands here, blocking passage to the south.",
+      "A large wall of stone stands here, blocking passage to the east..."
+    ],
+    "non-matching": [
+      "A large wall of stone stands here blocking passage to the west.",
+      "A large wall of stone blocks passage to the east.",
+      "A large wall of stone stands here, blocking passage.",
+      "A large wall of stone stands here, blocking passage to the east and west."
+    ]
+  },
+  {
+    "regex": "^A lash of energy whips out of the chaos storm to strike you, afflicting you with (\\w+).$",
+    "matching": [
+      "A lash of energy whips out of the chaos storm to strike you, afflicting you with weariness.",
+      "A lash of energy whips out of the chaos storm to strike you, afflicting you with paralysis.",
+      "A lash of energy whips out of the chaos storm to strike you, afflicting you with dementia.",
+      "A lash of energy whips out of the chaos storm to strike you, afflicting you with epilepsy."
+    ],
+    "non-matching": [
+      "A lash of energy whips out of the chaos storm to strike you, afflicting you with an affliction.",
+      "A lash of energy whips out of the chaos storm to strike you, afflicting you with a hidden affliction.",
+      "A lash of energy whips out of the chaos storm, afflicting you with paralysis.",
+      "A lash of energy whips out of the chaos storm to strike Wulfen."
+    ]
+  },
+  {
+    "regex": "^All of (\\w+)'s reflections wink out of existence!$",
+    "matching": [
+      "All of Wulfen's reflections wink out of existence!",
+      "All of Yen's reflections wink out of existence!",
+      "All of 90's reflections wink out of existence!",
+      "All of John's reflections wink out of existence!"
+    ],
+    "non-matching": [
+      "All of your reflections wink out of existence!",
+      "All of Wulfens reflections wink out of existence!",
+      "All of Yen's reflections wink out of existence.",
+      "All of Wulfen's reflection winks out of existence."
+    ]
+  },
+  {
+    "regex": "^A look of concentration followed by a look of disgust passes across (\\w+)'s face\\.$",
+    "matching": [
+      "A look of concentration followed by a look of disgust passes across Cory's face.",
+      "A look of concentration followed by a look of disgust passes across Vadimuses's face.",
+      "A look of concentration followed by a look of disgust passes across Wulfen's face.",
+      "A look of concentration followed by a look of disgust passes across sally's face."
+    ],
+    "non-matching": [
+      "A look of concentration followed by a look of disgust passes across the guard's face.",
+      "A look of concentration followed by a look of disgust passes across my face.",
+      "A look of concentration followed by a look of disgust passes across my friend's face.",
+      "A look of concentration, followed by a look of disgust passes across Vadimuses's face."
+    ]
+  }
+]
