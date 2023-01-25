@@ -1,4 +1,4 @@
-local lyaml   = require "lyaml"
+local json   = require "lunajson"
 local rex = require "rex_pcre2"
 
 function readAll(file)
@@ -8,12 +8,12 @@ function readAll(file)
     return content
 end
 
-local yamlContent = readAll("dataset.yaml")
+local jsonContent = readAll("dataset.json")
 
-local validYaml, tableOrError = pcall(lyaml.load, yamlContent)
+local validJson, tableOrError = pcall(json.decode, jsonContent)
 
-if not validYaml then
-    print("The file does not contain valid yaml", tableOrError)
+if not validJson then
+    print("The file does not contain valid json", tableOrError)
     os.exit(1)
 end
 
