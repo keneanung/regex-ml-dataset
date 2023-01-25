@@ -754,14 +754,13 @@
     "matching": [
       "Lightning-quick, Wulfen jabs you with a sword.",
       "Lightning-quick, Wulfen jabs you with the point of his rapier.",
-      "Lightning quick, Wulfen jabs you with his weapon.",
+      "Lightning-quick, Wulfen jabs you with his weapon.",
       "Lightning-quick, Wulfen jabs you."
     ],
     "non-matching": [
       "Lightning-quick, Rho Evensong jabs you with a sword.",
       "Lightning-quick Wulfen jabs you with a sword.",
-      "Lightning-quick, Wulfen jabs Tenebrus.",
-      "Lightning-quick, Wulfen jabs your right arm."
+      "Lightning-quick, Wulfen jabs Tenebrus."
     ]
   },
   {
@@ -1068,7 +1067,6 @@
       "The blade bites deeply into your head."
     ],
     "non-matching": [
-      "The blade bites deeply into your right arm and causes bruising.",
       "The blade bites deeply into the right leg.",
       "The blade bites deeply into the left arm.",
       "The blade bites deeply in your torso."
@@ -3704,7 +3702,6 @@
     ],
     "non-matching": [
       "You will now attempt to parry attacks to the head.",
-      "You will now attempt to parry attacks to your right and left legs.",
       "You will now attempt to parry to the head.",
       "You will now attempt to parry attacks to everything."
     ]
