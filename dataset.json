@@ -3840,8 +3840,8 @@
     "regex": "^Agony radiates out from the point of impact as (\\w+) brings the haft of (.+?) down upon your head with crushing force\\.$",
     "matching": [
       "Agony radiates out from the point of impact as John brings the haft of his sword down upon your head with crushing force.",
-      "Agony radiates out from the point of impact as Michael brings the haft of their mace down upon your foot with crushing force.",
-      "Agony radiates out from the point of impact as Emily brings the haft of her mace upon your head with crushing force."
+      "Agony radiates out from the point of impact as Michael brings the haft of their mace down upon your head with crushing force.",
+      "Agony radiates out from the point of impact as Emily brings the haft of her mace down upon your head with crushing force."
     ],
     "non-matching": [
       "Agony radiates out from the point of impact as John brings the haft of his mace down upon your shoulder with crushing force.",
