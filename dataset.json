@@ -150,7 +150,7 @@
     ]
   },
   {
-    "regex": "^\"And your guilt will be made plain,\" you proselytise to (\\w+)\\.$",
+    "regex": "^\"And your guilt will be made plain\", you proselytise to (\\w+)\\.$",
     "matching": [
       "\"And your guilt will be made plain\", you proselytise to John.",
       "\"And your guilt will be made plain\", you proselytise to 123456.",
@@ -165,12 +165,12 @@
     ]
   },
   {
-    "regex": "^\"And you shall be naught but cinders,\" you decree, focussing your holy might upon (\\w+)\\.$",
+    "regex": "^\"And you shall be naught but cinders\", you decree, focussing your holy might upon (\\w+)\\.$",
     "matching": [
       "\"And you shall be naught but cinders\", you decree, focussing your holy might upon John.",
       "\"And you shall be naught but cinders\", you decree, focussing your holy might upon 123456abc.",
       "\"And you shall be naught but cinders\", you decree, focussing your holy might upon a.",
-      "\"And you shall be naught but cinders,\" you decree, focussing your holy might upon Arthur."
+      "\"And you shall be naught but cinders\", you decree, focussing your holy might upon Arthur."
     ],
     "non-matching": [
       "\"And you shall be naught but cinders\", you decree, focussing your holy might upon  .",
@@ -625,7 +625,7 @@
       "\"Ab...a....aaa...aa.....\"",
       "\"Ab...a....abc...ab.....\"",
       "Please be kind 111 \"Aa...b....bde...ef.....\"",
-      "\"Bu...I...don...kn...\""
+      "\"Bu...i...don...kn.....\""
     ],
     "non-matching": [
       "\"zC...b....ccc...aa.....\"",
@@ -777,7 +777,7 @@
   {
     "regex": "^(\\d+)",
     "matching": [
-      123,
+      "123'",
       "123abc",
       "123 abc",
       "9ABC2354RV test !!!"
